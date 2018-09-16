@@ -1,79 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.top-container {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-}
-
-.header {
-  padding: 10px 16px;
-  background: #555;
-  color: #f1f1f1;
-}
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 102px;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  
+  <div class="top-container">
+    <h1>Hey! I'm Prachi<span id = "orange-text">.</span></h1>
+    <p>An Interaction Design student <br> at the <a class="link-undecorated" href="http://www.idc.iitb.ac.in/" target="_blank">Industrial Design Center, IIT Bombay.</a>Looking for internships during the winter break.</p>
+  </div>
 
-<div class="top-container">
-  <h1>Scroll Down</h1>
-  <p>Scroll down to see the sticky effect.</p>
-</div>
+  <div class="header" id="myHeader">
+    <ul id="myList">
+    <li><a href="#myList">Work</a></li>
+    <li><a href="about.html#myList">About</a></li>
+  </ul>
+  </div>
 
-<div class="header" id="myHeader">
-  <h2>My Header</h2>
-</div>
+  <div class="content">
+    <div class="project">   
+      <h2>The Bidri Book</h2>
+      <p>A Coffee Table Book for the traditional art form of Bidri from Bidar, Karnataka. The entire book was conceptualised, researched and created from scratch.</p>
+      <h5 class="read-more"><a href="the-bidri-book.html">Read More</a></h5>
+      <img src="bidri-book-feature.jpg" alt="The Bidri Book" class="feature-image">
+    </div>
 
-<div class="content">
-  <h3>On Scroll Sticky Header</h3>
-  <p>The header will stick to the top when you reach its scroll position.</p>
-  <p>Scroll back up to remove the sticky effect.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-</div>
+    <div class="project">   
+      <h2>The Bidri Book</h2>
+      <p>A Coffee Table Book for the traditional art form of Bidri from Bidar, Karnataka. The entire book was conceptualised, researched and created from scratch.</p>
+      <h5 class="read-more"><a href="the-bidri-book-project">Read More</a></h5>
+      <img src="bidri-book-feature.jpg" alt="The Bidri Book" class="feature-image">
+    </div>
 
-<script>
-window.onscroll = function() {myFunction()};
+    <div class="project">   
+      <h2>The Bidri Book</h2>
+      <p>A Coffee Table Book for the traditional art form of Bidri from Bidar, Karnataka. The entire book was conceptualised, researched and created from scratch.</p>
+      <h5 class="read-more"><a href="the-bidri-book-project">Read More</a></h5>
+      <img src="bidri-book-feature.jpg" alt="The Bidri Book" class="feature-image">
+    </div>
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
+    <div class="project">   
+      <h2>The Bidri Book</h2>
+      <p>A Coffee Table Book for the traditional art form of Bidri from Bidar, Karnataka. The entire book was conceptualised, researched and created from scratch.</p>
+      <h5 class="read-more"><a href="the-bidri-book-project">Read More</a></h5>
+      <img src="bidri-book-feature.jpg" alt="The Bidri Book" class="feature-image">
+    </div>  
+  </div>
 
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
-
+  <div id = "footer">
+    <p> Copyright &copy; 2018, Prachi Tank </p>
+  </div>
 </body>
+
+
+  <script type="text/javascript" src="script.js"></script>
+
+
 </html>
