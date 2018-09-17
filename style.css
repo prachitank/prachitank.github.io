@@ -29,7 +29,7 @@ body {
   font-weight: 400;
   padding-top: 200px;
   padding-left: 10%;
-  padding-right: 10%;
+  padding-right: 12%;
   padding-bottom: 200px;
   text-align: left;
 }
@@ -41,6 +41,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  opacity: 0.6;
 }
 
 a:hover {
@@ -60,7 +61,10 @@ a:hover {
 .header {
   padding-top: 10px;
   padding-bottom: 10px;
-  /*background: #555555;*/
+  background-color: rgba(255,255,255,0.9);
+  /*
+  background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
+  */
   color: #f1f1f1;
   /*max-width: 360px;*/
 }
@@ -79,10 +83,6 @@ ul li {
   margin-right: 15px;
 }
 
-.content {
-  padding: 16px;
-}
-
 .sticky {
   position: fixed;
   top: 0;
@@ -90,7 +90,7 @@ ul li {
 }
 
 .sticky + .content {
-  padding-top: 90px;
+  padding-top: 110px;
 }
 
 .feature-image {
@@ -104,4 +104,38 @@ ul li {
 
 .right-name {
   float: right;
+}
+
+.content {
+  padding-left: 10%;
+  padding-top: 36px;
+  padding-right: 10%;
+}
+
+.right {
+  float: right;
+  width:50%; 
+}
+
+.feature-image {
+  float: right;
+}
+
+.left {
+  width: 50%;
+  float: left;
+}
+
+.project {
+  padding: 20% 0%;
+}
+
+#footer {
+  margin-top: 10%;
+  padding: 50px 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#footer-text {
+  text-align: center;
 }
