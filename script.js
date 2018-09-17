@@ -9,11 +9,22 @@
   //Creating a new list item
   let newListItem = document.createElement('li');
   newListItem.textContent = 'Prachi Tank';
+  newListItem.classList.add("right-name");
+
+  //Reference
+  //document.getElementById("myDIV").classList.add("mystyle");
 
   function myFunction() {
     if (window.pageYOffset > sticky) {
       header.classList.add("sticky");
-      myList.insertBefore(newListItem, myList.childNodes[0]);
+      //Adding 'Prachi Tank' before work and about
+      //myList.insertBefore(newListItem, myList.childNodes[0]);
+
+      //Adding 'Prachi Tank' on the far right in the ul
+      myList.appendChild(newListItem); 
+
+      //Adding 'Prachi Tank' on the far right using a new ul
+
     } else {
       header.classList.remove("sticky");
       myList.removeChild(newListItem)

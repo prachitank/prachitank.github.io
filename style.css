@@ -1,18 +1,82 @@
+/* 
+to do tomorrow:
+make the width of the header the same
+when sticky class is applied and
+when it is not
+*/
+
+
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+
+/*
+#page-wrap {
+  max-width: 1000px;
+  display: block;
+  box-sizing: border-box;
+}
+*/
+
+.greeting {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 550;
 }
 
 .top-container {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding-top: 200px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 200px;
+  text-align: left;
+}
+
+#college-intro {
+  line-height: 1.3;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+  opacity: 0.4;
+}
+
+.active-link {
+  /*padding: 1px;
+  border-bottom: 2px solid white;*/
+}
+
+#orange-text {
+  color: #ff7619;
 }
 
 .header {
-  padding: 10px 16px;
-  background: #555;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*background: #555555;*/
   color: #f1f1f1;
+  /*max-width: 360px;*/
+}
+
+ul {
+  list-style: none;
+  /*background-color: blue;*/
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+ul li {
+  /*background-color: red;*/
+  color: black;
+  display: inline;
+  margin-right: 15px;
 }
 
 .content {
@@ -26,7 +90,7 @@ body {
 }
 
 .sticky + .content {
-  padding-top: 102px;
+  padding-top: 90px;
 }
 
 .feature-image {
@@ -36,4 +100,8 @@ body {
 .title-img {
   width: auto;
   height: 600px;
+}
+
+.right-name {
+  float: right;
 }
