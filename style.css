@@ -129,7 +129,13 @@ ul li {
 
 .project-box {
   margin-top: 10%;
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: rgba(0, 0, 0, 0.03);
+  -webkit-transition: background-color 3s,  /* Safari */
+    background-color: 3s;
+}
+
+.project-box:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .project {
@@ -142,6 +148,21 @@ ul li {
   float: left;
   padding: 35px 0px 0px 0px;
 }
+
+/*
+@media only screen and (max-width: 600px) {
+    .project-title {
+        width: 60%;
+        float: left;
+        padding: 35px 0px 0px 0px;
+    }
+
+    .project-feature-image {
+      width: 100%;
+      float: left;
+      height: 200px;
+      width: auto;
+    }*/
 
 .project-description {
   font-family: Lato; 
