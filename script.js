@@ -11,8 +11,11 @@
   newListItem.textContent = 'Prachi Tank';
   newListItem.classList.add("right-name");
 
-  //Reference
+  //Reference for the new list item
   //document.getElementById("myDIV").classList.add("mystyle");
+
+  //To change color 
+  //var full-stop = document.getElementById("color-change").style.color;
 
   function myFunction() {
     if (window.pageYOffset > sticky) {

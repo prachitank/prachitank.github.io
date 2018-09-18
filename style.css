@@ -54,9 +54,11 @@ a:hover {
   border-bottom: 2px solid white;*/
 }
 
+/*
 #orange-text {
   color: #ff7619;
 }
+*/
 
 .header {
   padding-top: 10px;
@@ -114,21 +116,39 @@ ul li {
 
 .right {
   float: right;
-  width:50%; 
+  width: 40%; 
+}
+
+.read-more {
+  font-family: Lato; 
+  font-weight: 700;
+  padding: auto;
+}
+
+.left {
+  width: 20%;
+  float: left;
+  padding-top: 0px;
+}
+
+.middle {
+  width: 40%;
+  float: left;
+  font-family: Lato; 
+  font-weight: 100;
+  padding: auto;
 }
 
 .feature-image {
   float: right;
 }
 
-.left {
-  width: 50%;
-  float: left;
+.project {
+  margin: 10% 0% 10% 0%;
+  padding: 10%;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-.project {
-  padding: 20% 0%;
-}
 
 #footer {
   margin-top: 10%;
@@ -138,4 +158,76 @@ ul li {
 
 #footer-text {
   text-align: center;
+}
+
+/*
+Color Changing Animation. Thanks to Rasin Zakaria! 
+*/
+
+.awesome { 
+    font-weight: 800;           
+      color:#ff7619;
+      -webkit-animation:colorchange 3s infinite alternate;
+      
+      
+    }
+
+@-webkit-keyframes colorchange {
+      0% {
+        
+        color: #d7acd4;
+      }
+      
+      10% {
+        
+        color: #e88d5d;
+      }
+      
+      20% {
+        
+        color: #d291bc;
+      }
+      
+      30% {
+        
+        color: #a3f3eb;
+      }
+      
+      40% {
+        
+        color: #db3951;
+      }
+      
+      50% {
+        
+        color: #00136c;
+      }
+      
+      60% {
+        
+        color: #a74faf;
+      }
+      
+      70% {
+        
+        color: #ff5da2;
+      }
+      80% {
+     
+        color: #a1c45a;
+      }
+      
+      90% {
+     
+        color: #fbb901;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+
+#letter-spacing-full-stop {
+  letter-spacing: 2px;
 }
