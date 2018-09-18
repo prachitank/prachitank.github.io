@@ -95,10 +95,6 @@ ul li {
   padding-top: 110px;
 }
 
-.feature-image {
-  width: 50%;
-}
-
 .title-img {
   width: auto;
   height: 600px;
@@ -106,12 +102,6 @@ ul li {
 
 .right-name {
   float: right;
-}
-
-.content {
-  padding-left: 10%;
-  padding-top: 36px;
-  padding-right: 10%;
 }
 
 .right {
@@ -125,30 +115,56 @@ ul li {
   padding: auto;
 }
 
-.left {
-  width: 20%;
-  float: left;
-  padding-top: 0px;
-}
-
-.middle {
-  width: 40%;
-  float: left;
-  font-family: Lato; 
-  font-weight: 100;
-  padding: auto;
-}
-
+/*
 .feature-image {
   float: right;
 }
+*/
 
-.project {
-  margin: 10% 0% 10% 0%;
-  padding: 10%;
-  background-color: rgba(0, 0, 0, 0.1);
+.content {
+  padding-left: 10%;
+  padding-top: 36px;
+  padding-right: 10%;
 }
 
+.project-box {
+  margin-top: 10%;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.project {
+  padding: 5%;
+  overflow: auto;
+}
+
+.project-title {
+  width: 60%;
+  float: left;
+  padding: 35px 0px 0px 0px;
+}
+
+.project-description {
+  font-family: Lato; 
+  font-weight: 100;
+  font-size: 1.1em;
+}
+
+.project-feature-image {
+  width: 40%;
+  float: right;
+  height: 200px;
+  width: auto;
+}
+
+.project-tags {
+  font-size: 0.9em;
+  font-weight: 100;
+  opacity: 0.9;
+}
+
+.remove-top-margin {
+  margin-top: 0px;
+}
 
 #footer {
   margin-top: 10%;
