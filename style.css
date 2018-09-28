@@ -1,23 +1,11 @@
-/* 
-to do tomorrow:
-make the width of the header the same
-when sticky class is applied and
-when it is not
+/*
+Prachi's CSS
 */
-
 
 body {
   margin: 0;
   font-family: Montserrat, Helvetica, sans-serif;
 }
-
-/*
-#page-wrap {
-  max-width: 1000px;
-  display: block;
-  box-sizing: border-box;
-}
-*/
 
 .greeting {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
@@ -28,7 +16,7 @@ body {
   font-family: Lato, Arial, Helvetica, sans-serif;
   font-weight: 400;
   padding-top: 200px;
-  padding-left: 10%;
+  padding-left: 15%; /*Change this for mobile*/
   padding-right: 12%;
   padding-bottom: 200px;
   text-align: left;
@@ -37,6 +25,20 @@ body {
 #college-intro {
   line-height: 1.3;
 }
+
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
 
 a {
   text-decoration: none;
@@ -50,15 +52,8 @@ a:hover {
 }
 
 .active-link {
-  /*padding: 1px;
-  border-bottom: 2px solid white;*/
+text-decoration: underline;
 }
-
-/*
-#orange-text {
-  color: #ff7619;
-}
-*/
 
 .header {
   padding-top: 10px;
@@ -74,8 +69,8 @@ a:hover {
 ul {
   list-style: none;
   /*background-color: blue;*/
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%; /*Change for mobile*/
+  padding-right: 14%; /*Change for mobile*/ /*WHAT THE FUCK*/
 }
 
 ul li {
@@ -122,16 +117,24 @@ ul li {
 */
 
 .content {
-  padding-left: 10%;
-  padding-top: 36px;
-  padding-right: 10%;
-}
+/*  padding-left: 10%;
+*/  padding-top: 36px;
+/*  padding-right: 10%;
+*/}
 
 .project-box {
-  margin-top: 10%;
   background-color: rgba(0, 0, 0, 0.03);
+  margin: 11%;
   -webkit-transition: background-color 3s,  /* Safari */
     background-color: 3s;
+}
+
+.more-margin {
+  margin-top: 20%;
+}
+
+.less-margin {
+  margin-top: 10%;
 }
 
 .project-box:hover {
@@ -204,8 +207,8 @@ Color Changing Animation. Thanks to Rasin Zakaria!
 .awesome { 
     font-weight: 800;           
       color:#ff7619;
-      -webkit-animation:colorchange 3s infinite alternate;
-      
+      -webkit-animation:colorchange 3s infinite;
+      animation: colorchange 3s infinite;
       
     }
 

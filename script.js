@@ -17,6 +17,8 @@
   //To change color 
   //var full-stop = document.getElementById("color-change").style.color;
 
+  var makeActive = document.getElementById("make-active");
+
   function myFunction() {
     if (window.pageYOffset > sticky) {
       header.classList.add("sticky");
@@ -28,8 +30,11 @@
 
       //Adding 'Prachi Tank' on the far right using a new ul
 
+      makeActive.classList.add("active-link");
+
     } else {
       header.classList.remove("sticky");
-      myList.removeChild(newListItem)
+      myList.removeChild(newListItem);
+      makeActive.classList.remove("active-link");
     }
   }
