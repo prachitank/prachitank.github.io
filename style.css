@@ -52,7 +52,8 @@ a:hover {
 }
 
 .active-link {
-text-decoration: underline;
+  background-color: #00000020;
+/*text-decoration: underline;*/
 }
 
 .header {
@@ -123,7 +124,9 @@ ul li {
 */}
 
 .project-box {
-  background-color: rgba(0, 0, 0, 0.03);
+/*  background-color: rgba(0, 0, 0, 0.03);
+*/
+  border-radius: 5px;  
   margin: 11%;
   -webkit-transition: background-color 3s,  /* Safari */
     background-color: 3s;
@@ -138,8 +141,9 @@ ul li {
 }
 
 .project-box:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
+  box-shadow: 0 0px 28px rgba(0,0,0,0.05), 0 0px 10px rgba(0,0,0,0.02);
+/*  background-color: rgba(0, 0, 0, 0.1);
+*/}
 
 .project {
   padding: 5%;
