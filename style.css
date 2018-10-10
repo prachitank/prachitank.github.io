@@ -5,7 +5,7 @@ Prachi's CSS
 body {
   margin: 0;
   /*color: #ffffff95;*/
-  font-family: Montserrat, Helvetica, sans-serif;
+  font-family: /*Open Sans, */Montserrat, Helvetica, sans-serif;
 }
 
 .greeting {
@@ -171,10 +171,14 @@ ul li.header-name {
   overflow: auto;
 }
 
-.project-title {
+.project-text {
   width: 60%;
   float: left;
   padding: 35px 0px 0px 0px;
+}
+
+.project-title{
+  color: #00000095;
 }
 
 
@@ -193,6 +197,7 @@ ul li.header-name {
 }
 
 .project-tags {
+  font-family: Open Sans;
   font-size: 0.9em;
   font-weight: 100;
   opacity: 0.9;
@@ -287,10 +292,6 @@ Color Changing Animation. Thanks to Rasin Zakaria!
   padding: 5% 15%;
 }
 
-.about-photo {
-  width: 50%;
-  height: auto
-}
 
 .float-left {
   float: left;
@@ -300,16 +301,30 @@ Color Changing Animation. Thanks to Rasin Zakaria!
   float: right;
 }
 
-.about-content {
-  width: 40%;
-  font-weight: 100px;
+.about-text {
+  width: 60%;
+  float: left;
+  padding: 60px 0px 0px 0px;
+}
+
+.about {
+  margin-top: 0px;
 }
 
 .about-photo {
+  width: 30%;
+}
+
+.me {
+  width: 40%;
+  height: 300px;
+  width: auto;
+  margin-left: 3%;
+  border-radius: 5px;
 }
 
 .my-photo {
-  width: 50%;
+  width: 300px;
   height: auto;
 }
 
@@ -325,8 +340,8 @@ Color Changing Animation. Thanks to Rasin Zakaria!
 
 .running-text {
   font-weight: 400;
-  font-family: "Segoe UI";
-  line-height: 1.6em;
+  font-family: "Open Sans";
+  line-height: 1.3em;
   font-size: 1.07em;
   color: #00000099;
 }
