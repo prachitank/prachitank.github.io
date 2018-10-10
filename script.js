@@ -26,7 +26,8 @@
       //myList.insertBefore(newListItem, myList.childNodes[0]);
 
       //Adding 'Prachi Tank' on the far right in the ul
-      myList.appendChild(newListItem); 
+      // myList.appendChild(newListItem); 
+      myList.insertBefore(newListItem, mylist.childNodes[0]); 
 
       //Adding 'Prachi Tank' on the far right using a new ul
 
@@ -38,3 +39,17 @@
       makeActive.classList.remove("active-link");
     }
   }
+
+
+// scroll magic
+
+// init controller
+var controller = new ScrollMagic.Controller();
+
+// create a scene
+new ScrollMagic.Scene({
+        triggerElement: "#sm-project1"        // start this scene after scrolling for 50px
+    })
+    .setClassToggle("#sm-project1", "fade-in") // pins the element for the the scene's duration
+    .addIndicators()
+    .addTo(controller); // assign the scene to the controller
