@@ -1,0 +1,113 @@
+/*
+Prachi's CSS Media Queries
+*/
+
+
+@media screen and (max-width: 1024px) {
+.project-text {
+	padding: 0px;
+  	width: 50%;
+  	margin-bottom: 0.3em;
+}
+
+.project-title {
+	font-size: 1.4em;
+	margin-bottom: 0.7em;
+	margin-top: 0em;
+}
+
+.project-tags {
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+}
+
+.project-feature-image {
+	width: 40%;
+	float: right;
+	height: 198px;
+	width: auto;
+	border-radius: 5px;
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+.project-text {
+	padding: 0px;
+  	width: 50%;
+  	margin-bottom: 0.3em;
+}
+
+.project-title {
+	font-size: 1.4em;
+	margin-bottom: 0.7em;
+	margin-top: 0em;
+}
+
+.project-tags {
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+}
+
+.project-feature-image {
+	width: 30%;
+	float: right;
+	height: 150px;
+	width: auto;
+	border-radius: 5px;
+}
+
+.project-description {
+	display: none;
+}
+
+.read-more {
+	display: inline-block;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+.top-container {
+	padding-top: 180px;
+}
+
+.project-text {
+	padding: 0px;
+  	width: 100%;
+  	margin-bottom: 0.3em;
+}
+
+.project-title {
+	font-size: 1.4em;
+	margin-bottom: 0.7em;
+	margin-top: 0em;
+}
+
+.project-tags {
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+}
+
+.project-feature-image {
+	width: 100%;
+	float: none;
+	height: 173px;
+	width: auto;
+	border-radius: 5px;
+}
+
+.project-description {
+	display: inline-block;
+}
+
+.read-more {
+	display: none;
+}
+}
+
+
+@media screen and (max-width: 1100px) {
+.top-container {
+	padding-top: 180px;
+}

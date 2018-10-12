@@ -4,11 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="aos.css">
+
 </head>
 
 <body>
 <!-- header -->
-  <div class="header" id="myHeader" data-aos="fade-zoom-in" data-aos-offset=300 data-aos-duration="500">
+  <!-- <div class="header" id="myHeader"> -->
+  <div class="sticky header" >
     <ul id="myList">
       <li class="header-name">
         <a href="index.html">Prachi Tan<span id="letter-spacing-full-stop">k<span id = "orange-text" class="awesome">.</span></span></a>
@@ -20,31 +23,32 @@
         <a href="about.html#myList">About</a>
       </li>
       <li>
-        <a href="about.html#myList">Resume</a>
+        <a href="https://drive.google.com/file/d/1ZJu9AqdHYraA99jOmpQ0a8IdY7AvxNkA/view?usp=sharing" target="_blank">Resume</a>
       </li>
     </ul>
   </div>
 
+  <div class="about-page">
 
-    <div class="about-page">
-     <!--  <div class="about-content float-left running-text">
-        <p class="about"> I am currently pursuing my Master's Degree in Interaction Design from IIT, Bombay - Industrial Design Centre. I have completed my Bachelor's Degree in Fashion Communication from NIFT (National Institute of Fashion Technology), Hyderabad. My enthusiasm for creating user centric solutions brought me to Interaction Design. With a data-centric approach, I want to make sure that the users are at the forefront for my design.</p>
-        <p> Currently Reading: Grapes of Wrath by John Steinbeck</p>
-      </div>
-      <div class="float-right about-photo">
-        <img src="assets/bidri-book-feature.jpg" class="my-photo">
-      </div>
-    </div> -->
+<!-- abouttext -->
+    <div class="about-text">  
+      <p class="project-description remove-top-margin running-text">I am currently pursuing my Master's Degree in Interaction Design from IIT, Bombay - Industrial Design Centre. I have completed my Bachelor's Degree in Fashion Communication from NIFT (National Institute of Fashion Technology), Hyderabad. My enthusiasm for creating user centric solutions brought me to Interaction Design. With a data-centric approach, I want to make sure that the users are at the forefront for my design.</p>
+      <p class="running-text"> I like to read and am constantly trying to read different authors and genres. However, I gravitate towards novels which can be summed up into 'What to do if the FBI, CIA and Interpol are after you?'. I am currently reading Grapes of Wrath by John Steinbeck. I try learning new things all the time, be it languages, coding, history lessons or listening to an interesting podcast. My TV show binge watching habits are borderline unhealthy but I make up for that with my love for playing badminton or just going for a run!</p>
+      <p class="running-text"> In case you were wondering why the full stop next to my name that keeps changing different colors. It is my attempt to make the website reflect me. That might not make a lot of sense. So let me explain - right now the dot is changing colors 70 times per minute which also happens to be my resting heart rate. And when I have the surplus to invest in smart watch or a fit bit, I plan to connect it to the website so this becomes a 'live' website. Yes, it might be nothing more than a gimmick, but I think it be hella cool.</p> 
+    </div>
+    
+    <img src="assets/me.jpg" alt="NIFT App" class="me">
+  
+  </div>
 
-<!-- project 1 -->
-          <div class="about-text">  
-            <p class="project-description remove-top-margin running-text">I am currently pursuing my Master's Degree in Interaction Design from IIT, Bombay - Industrial Design Centre. I have completed my Bachelor's Degree in Fashion Communication from NIFT (National Institute of Fashion Technology), Hyderabad. My enthusiasm for creating user centric solutions brought me to Interaction Design. With a data-centric approach, I want to make sure that the users are at the forefront for my design.</p>
-<!--         <p> Currently Reading: Grapes of Wrath by John Steinbeck</p> -->
-          </div>
-          <img src="assets/me.jpg" alt="NIFT App" class="me">
-      </div>
-    </a>
+<!-- scripts -->
+  <script type="text/javascript" src="script.js"></script>
 
-    <script type="text/javascript" src="script.js"></script>
+  <script src="aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
+
+</html>

@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-mq.css">
   <link rel="stylesheet" href="bootstrap-grid.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
   <link rel="stylesheet" href="aos.css">
 </head>
 
@@ -14,12 +14,10 @@
 <div id="page-wrap">
 
 <!-- top container -->
-  <div class="top-container">
-    <div class="top-background" data-aos="fade-zoom-in" data-aos-duration="1000">
+  <div class="top-container" data-aos="fade-zoom-in" data-aos-duration="1000">
       <h2 class="greeting">Hello! I'm Prachi Tan<span id="letter-spacing-full-stop">k<span id = "orange-text" class="awesome">.</span></span></h2>
       <h3 id="college-intro">I'm pursuing a Masters in Interaction Design <br> at the <a class="link-undecorated link-opacity-no-change" href="http://www.idc.iitb.ac.in/" target="_blank">Industrial Design Center (IDC), IIT Bombay</a>.</h3>  
-      <a href="index.html#myHeader"><i class="arrow down arrow-margin arrow-color link-opacity-no-change"></i></a>
-    </div>
+      <a href="index.html#myHeader"><i class="down arrow-margin arrow-color link-opacity-no-change"></i></a>
   </div>
 
 <!-- header -->
@@ -35,7 +33,7 @@
         <a href="about.html#myList">About</a>
       </li>
       <li>
-        <a href="https://drive.google.com/file/d/13iZeTijIS4jZ7gWjJZHw5GkXy9vWyji0/view?usp=sharing" target="_blank">Resume</a>
+        <a href="https://drive.google.com/file/d/1ZJu9AqdHYraA99jOmpQ0a8IdY7AvxNkA/view?usp=sharing" target="_blank">Resume</a>
       </li>
     </ul>
   </div>
@@ -43,15 +41,16 @@
   <div class="content">
 
 <!-- project 1 -->
-    <a href="https://medium.com/@prachitank/re-imagining-the-nift-app-website-e7b3a2719a7e" target="_blank">
-      <div class="project-box less-margin" data-aos="fade-zoom-in" data-aos-duration="1000" data-aos-mirror=true>
-        <div class="project"> 
-          <div class="project-text">  
-            <h2 class="remove-top-margin project-title">Re-imagining the NIFT App & Website</h2>
-            <p class="project-tags">UX Design  |  Personal Project</p>
-            <p class="project-description running-text">A self-initiated project which re-imagined the user experience of the NIFT Campus Management Solution to respond to the user’s need more efficiently. </p>
-          </div>
-          <img src="assets/cms-work-feature-h200.jpg" alt="NIFT App" class="project-feature-image">
+    <a href="https://medium.com/@prachitank/re-imagining-the-nift-app-website-e7b3a2719a7e" target="_blank">  
+      <div class="project-box" data-aos="fade-zoom-in" data-aos-duration="1000" data-aos-mirror=true>
+        <div class="project-text">
+          <h2 class="project-title remove-top-margin">Re-imagining the NIFT App & Website</h2>
+          <p class="project-tags">UX Design  |  Personal Project</p>
+          <p class="project-description running-text">A self-initiated project which re-imagined the user experience of the NIFT Campus Management Solution to respond to the user’s need more efficiently. </p>
+          <p class="read-more project-tags">Read More</p>
+        </div>
+        <div>
+          <img class="project-feature-image" src="assets/cms-work-feature-h200.jpg" alt="NIFT App">
         </div>
       </div>
     </a>
@@ -59,30 +58,32 @@
 <!-- project 2 -->
     <a href="bidri-coffee-table-book">
       <div class="project-box" data-aos="fade-zoom-in" data-aos-duration="1000">
-        <div class="project more-margin"> 
-          <div class="project-text">  
-            <h2 class="remove-top-margin project-title">Banking Experience in India</h2>
-            <p class="project-tags">UX Design  |  Graduation Project</p>
-            <p class="project-description">The way we interact with money has changed drastically. The project proposes an experience which can help banks evolve and compete with the third party fintech products.</p>
-          </div>
+        <div class="project-text">  
+          <h2 class="remove-top-margin project-title">Banking Experience in India</h2>
+          <p class="project-tags">UX Design  |  Graduation Project</p>
+          <p class="project-description running-text">The way we interact with money has changed drastically. The project proposes an experience which can help banks evolve and compete with the third party fintech products.</p>
+          <p class="read-more project-tags">Read More</p>
+        </div>
+        <div>
           <img src="assets/banking-work-feature-h200.jpg" alt="Sky Bank" class="project-feature-image">
         </div>
       </div>
-      </a>
+    </a>
 
 <!-- project 3 -->
-      <a href="https://www.behance.net/gallery/47332867/Bidri-Craft-Coffee-Table-Book" target="_blank">
-      <div class="project-box more-margin" data-aos="fade-zoom-in" data-aos-duration="1000">
-        <div class="project"> 
+    <a href="https://www.behance.net/gallery/47332867/Bidri-Craft-Coffee-Table-Book" target="_blank">
+      <div class="project-box" data-aos="fade-zoom-in" data-aos-duration="1000">
           <div class="project-text">  
-            <h2 class="remove-top-margin project-title">Coffee Table Book</h2>
-            <p class="project-tags">Publication Design</p>
-            <p class="project-description">A Coffee Table Book for the traditional art form of Bidri from Bidar, Karnataka. The entire book was conceptualised, researched and created from scratch.</p>
-          </div>
+          <h2 class="remove-top-margin project-title">Coffee Table Book</h2>            
+          <p class="project-tags">Publication Design</p>
+          <p class="project-description running-text">A Coffee Table Book for the traditional art form of Bidri from Bidar, Karnataka. The entire book was conceptualised, researched and created from scratch.</p>
+          <p class="read-more project-tags">Read More</p>
+        </div>
+        <div>
           <img src="assets/bidri-book-feature.jpg" alt="The Bidri Book" class="project-feature-image">
         </div>
       </div>
-      </a>
+    </a>
 
     </div>
 
