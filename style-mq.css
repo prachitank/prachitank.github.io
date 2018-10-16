@@ -89,11 +89,21 @@ Prachi's CSS Media Queries
 	margin-bottom: 0.7em;
 }
 
-.project-feature-image {
+.container {
+	position: absolute;
+	top: 60%;
+	left: 0;
+	margin-top: 100px;
+	margin-left: 10px;
 	width: 100%;
+}
+
+.project-feature-image {
+	width: 173px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 160px;
 	float: none;
-	height: 173px;
-	width: auto;
 	border-radius: 5px;
 }
 

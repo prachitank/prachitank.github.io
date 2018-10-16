@@ -1,0 +1,63 @@
+.body { 
+
+}
+
+/*make one for 1400 px also*/
+@media (min-width: 1200px) { 
+.container {
+    max-width: 1108px;  
+}
+}
+
+
+.project-title-text {
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+	color: #00000099;
+}
+
+.project-tags-text {
+	font-family: "Open Sans", Helvetica, sans-serif;
+  	font-size: 0.9em;
+  	font-weight: 300;
+  	opacity: 0.9;
+}
+
+.running-text {
+  font-weight: 400;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  line-height: 1.3em;
+  font-size: 1.07em;
+  color: #00000099;
+}
+
+.card {
+	border: none;
+	padding: 5% 4%;
+	margin: 10% 0%;
+	overflow: auto;
+	border-radius: 5px;  
+	/*margin: 11%;*/
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.05);
+}
+
+.card-block {
+	/*max-height: 200px;*/
+	/*overflow: auto;*/
+	/*padding: 4% 0%;*/
+}
+
+.card:hover {
+  box-shadow: 0px 0px 28px rgba(0,0,0,0.1);
+}
+
+.feature-image {
+	padding-top: 20px;
+}
+
+@media (min-width: 767px) { 
+.feature-image {
+	padding-top: 0px;
+}
+}

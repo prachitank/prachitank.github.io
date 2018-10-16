@@ -3,47 +3,45 @@ Prachi's CSS
 */
 
 body {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;  
+  color: #00000095;
   margin: 0;
-  /*color: #ffffff95;*/
-  font-family: /*Open Sans, */Montserrat, Helvetica, sans-serif;
+}
+
+.top-container {
+  padding-top: 225px;
+  padding-left: 15%; 
+  padding-right: 12%;  /*Right is different from left because of the rag*/ 
+  padding-bottom: 200px;
+  text-align: left;
 }
 
 .greeting {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 550;
+  font-size: 1.4em;
+  color: #00000099;
 }
 
-.top-container {
-  color: #00000095;
-  /*background-color: #00000080;*/
-  font-family: Lato, Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  padding-top: 200px;
-  padding-left: 15%; /*Change this for mobile*/
-  padding-right: 12%;
-  padding-bottom: 200px;
-  text-align: left;
+.break {
+  display: inline-block;
 }
 
 #college-intro {
+  font-family: Montserrat, Roboto, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 350;
   line-height: 1.3;
   margin-bottom: 0px;
 }
 
-.arrow-margin {
-  margin-left: 5px;
-  margin-top: 4px;  
-}
-
-.arrow-color {
-  /*color: #000000;*/
-}
-
 i {
-    border: solid #00000090;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
+  margin-left: 5px;
+  margin-top: 4px;
+  border: solid #00000095; /*arrow color*/
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
 }
 
 .down {
@@ -52,57 +50,50 @@ i {
     /*display: inline-block;*/
 }
 
-
 a {
   text-decoration: none;
   color: inherit;
-  opacity: 0.6;
+  /*opacity: 0.6;*/
 }
 
 a:hover {
+  text-decoration: none;
   color: inherit;
-  opacity: 0.4;
+  opacity: 0.5;
 }
 
-.link-opacity-no-change {
-  opacity:1;
-}
-
-.active-link {
-  background-color: #00000020;
-/*text-decoration: underline;*/
+.content { 
+  padding-top: 36px;
 }
 
 .header {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: rgba(255,255,255,0.9);
-  color: #f1f1f1;
+  /*color: #f1f1f1;*/
   z-index: 1;
   width: 100%;
+  font-weight: 600;
 }
 
 ul {
   list-style: none;
-  /*background-color: blue;*/
   padding-left: 15%; /*Change for mobile*/
   padding-right: 14%; /*Change for mobile*/ /*WHAT THE FUCK*/
+  margin: 0px;
 }
 
 ul li {
-  /*background-color: red;*/
-  color: black;
   display: inline;
   margin-right: 15px;
 }
 
 ul li.header-name {
-  /*color: #00000098;*/
   padding-right: 15px;
 }
 
 #make-active {
-  color: #00000090;  
+  color: #00000050;  
 }
 
 .sticky {
@@ -112,28 +103,28 @@ ul li.header-name {
 }
 
 .sticky + .content {
-  padding-top: 110px;
+  padding-top: 100px;
 }
 
-.title-img {
+/*.title-img {
   width: auto;
   height: 600px;
-}
+}*/
 
-.right-name {
+/*.right-name {
   float: right;
-}
+}*/
 
-.right {
+/*.right {
   float: right;
   width: 40%; 
-}
+}*/
 
-.read-more {
+/*.read-more {
   font-family: Lato; 
   font-weight: 700;
   padding: auto;
-}
+}*/
 
 /*
 .feature-image {
@@ -141,11 +132,6 @@ ul li.header-name {
 }
 */
 
-.content {
-/*  padding-left: 10%;
-*/  padding-top: 36px;
-/*  padding-right: 10%;
-*/}
 
 .project-box:hover {
   box-shadow: 0px 0px 28px rgba(0,0,0,0.1);
@@ -163,6 +149,7 @@ ul li.header-name {
 .project-box {
   padding: 4%;
   overflow: auto;
+  border-color: red;
   border-radius: 5px;  
   margin: 11%;
   box-shadow: 0px 0px 20px rgba(0,0,0,0.05);
