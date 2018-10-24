@@ -20,7 +20,7 @@ body {
 .greeting {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 550;
-  font-size: 1.4em;
+  font-size: 3.3em;
   color: #000000;
   opacity: 0.7;
 }
@@ -30,10 +30,10 @@ body {
 }
 
 .break-lg {
-  display: inline-block;
+  display: inline;
 }
 
-@media (min-width: 1000px) { 
+@media (min-width: 700px) { 
   .break-lg {
     display: block;
   }
@@ -151,9 +151,14 @@ ul li.header-name {
   }
 }
 
-#make-active {
+.make-active {
   color: #000000;
   opacity: 0.4;  
+}
+
+.make-active-running-text {
+  color: #000000;
+  opacity: 0.6;  
 }
 
 .sticky {
@@ -190,8 +195,8 @@ Color Changing Animation. Thanks to Rasin Zakaria!
 .awesome { 
     font-weight: 800;           
       color:#ff7619;
-      -webkit-animation:colorchange 3s infinite;
-      animation: colorchange 3s infinite;
+      -webkit-animation:colorchange 8s infinite;
+      animation: colorchange 8s infinite;
       
     }
 
@@ -253,20 +258,11 @@ Color Changing Animation. Thanks to Rasin Zakaria!
 }
 
 .about-page {
-  padding: 10% 15%;
-}
-
-
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
+  padding: 6% 15%;
 }
 
 .about-text {
-  width: 60%;
+  width: 100%;
   float: left;
   padding: 0px 0px 0px 0px;
 }
@@ -275,21 +271,14 @@ Color Changing Animation. Thanks to Rasin Zakaria!
   margin-top: 0px;
 }
 
-.about-photo {
-  width: 30%;
-}
-
-.me {
-  width: 40%;
-  height: 300px;
-  width: auto;
-  margin-left: 3%;
-  border-radius: 5px;
-}
-
 .my-photo {
-  width: 300px;
+  width: 100%;
   height: auto;
+}
+
+.idc {
+  width: 20%;
+  height: auto;  
 }
 
 .first-project-image {
