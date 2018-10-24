@@ -10,12 +10,23 @@ body {
 }
 
 .top-container {
-  padding-top: 225px;
-  padding-left: 15%; 
+  padding-top: 125px;
+  padding-left: 10%; 
   padding-right: 12%;  /*Right is different from left because of the rag*/ 
   padding-bottom: 200px;
   text-align: left;
 }
+
+@media (min-width: 500px) { 
+  .top-container {
+    padding-top: 225px;
+    padding-left: 15%; 
+    padding-right: 12%;  /*Right is different from left because of the rag*/ 
+    padding-bottom: 200px;
+    text-align: left;
+  }
+}
+
 
 .greeting {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
@@ -39,7 +50,7 @@ body {
   }
 }
 
-#college-intro {
+.college-intro {
   font-family: Montserrat, Roboto, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 350;
@@ -129,14 +140,30 @@ hover-opacity-1:hover {
 
 ul {
   list-style: none;
-  padding-left: 15%; /*Change for mobile*/
-  padding-right: 14%; /*Change for mobile*/ /*WHAT THE FUCK*/
+  padding-left: 8%; /*Change for mobile*/
+  padding-right: 8%; /*Change for mobile*/ /*WHAT THE FUCK*/
   margin: 0px;
+}
+
+@media (min-width: 700px) { 
+  ul {
+    list-style: none;
+    padding-left: 15%; /*Change for mobile*/
+    padding-right: 14%; /*Change for mobile*/ /*WHAT THE FUCK*/
+    margin: 0px;
+}
 }
 
 ul li {
   display: inline;
-  margin-right: 15px;
+  margin-right: 10px;
+}
+
+@media (min-width: 700px) { 
+  ul li {
+    display: inline;
+    margin-right: 15px;
+  }
 }
 
 ul li.header-name {
@@ -183,7 +210,7 @@ ul li.header-name {
 
 .footer-text {
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: #000000;
   opacity: 0.8;
 }
@@ -258,86 +285,80 @@ Color Changing Animation. Thanks to Rasin Zakaria!
 }
 
 .about-page {
-  padding: 6% 15%;
+  padding: 5% 15%;
 }
 
-.about-text {
-  width: 100%;
-  float: left;
-  padding: 0px 0px 0px 0px;
-}
-
-.about {
-  margin-top: 0px;
-}
-
-.my-photo {
-  width: 100%;
-  height: auto;
-}
-
-.idc {
-  width: 20%;
-  height: auto;  
-}
-
-.first-project-image {
-  width: 100%;
-  height: 400px;
-}
-
-.project-page-title {
-  margin: 5% 0%;
-  text-align: center;
-}
-
-.running-text {
+.running-text{
   font-weight: 400;
   font-family: "Open Sans";
   line-height: 1.3em;
   font-size: 1.07em;
   color: #000000;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
-.blurb {
-/*  font-size: 1.3em;
-*/  font-style: italic;
-/*  padding-left: 10px;
+.running-text-link {
+  font-weight: 400;
+  font-family: "Open Sans";
+  line-height: 1.3em;
+  font-size: 1.07em;
   color: #000000;
-*/
+  opacity: 0.6;
 }
 
-.caption {
-  font-size: 0.9em;
-  font-style: normal;
+.running-text-link:hover {
+  font-weight: 400;
+  font-family: "Open Sans";
+  line-height: 1.3em;
+  font-size: 1.07em;
+  color: #000000;
+  opacity: 0.3;
 }
 
-.title {
-  font-weight: 600}
-
-.page-wrap {
-  margin: 0% 25%;
+.mt-10 {
+  margin-top: 25%;
 }
 
-.middle-project-image {
-  width: 80%;
-  height: 300px;
-  display: block;
-  margin-top: 10%;
+.mb-10 {
   margin-bottom: 10%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.medium {
-  height: 400px;
+@media (min-width: 400px) { 
+.mt-10 {
+  margin-top: 10%;
 }
 
-.preview-wrap {
-  margin: 10%;
+.mb-10 {
+  margin-bottom: 5%;
+}
 }
 
-.preview-image {
-   width: 
+@media (min-width: 700px) { 
+.mt-10 {
+  margin-top: 5%;
+}
+
+.mb-10 {
+  margin-bottom: 5%;
+}
+}
+
+@media (min-width: 1300px) { 
+.mt-10 {
+  margin-top: 2%;
+}
+
+.mb-10 {
+  margin-bottom: 5%;
+}
+}
+
+@media (min-width: 2000px) { 
+.mt-10 {
+  margin-top: 1%;
+}
+
+.mb-10 {
+  margin-bottom: 5%;
+}
 }
