@@ -27,7 +27,15 @@ body {
   }
 }
 
-
+@media (min-width: 1500px) { 
+  .top-container {
+    padding-top: 500px;
+    padding-left: 10%; 
+    padding-right: 12%;  /*Right is different from left because of the rag*/ 
+    padding-bottom: 500px;
+    text-align: left;
+  }
+}
 .greeting {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 550;
