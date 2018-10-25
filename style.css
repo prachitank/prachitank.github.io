@@ -29,10 +29,10 @@ body {
 
 @media (min-width: 1500px) { 
   .top-container {
-    padding-top: 300px;
+    padding-top: 320px;
+    padding-bottom: 320px;
     padding-left: 10%; 
     padding-right: 12%;  /*Right is different from left because of the rag*/ 
-    padding-bottom: 200px;
     text-align: left;
   }
 }
