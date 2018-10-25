@@ -29,10 +29,10 @@ body {
 
 @media (min-width: 1500px) { 
   .top-container {
-    padding-top: 500px;
+    padding-top: 300px;
     padding-left: 10%; 
     padding-right: 12%;  /*Right is different from left because of the rag*/ 
-    padding-bottom: 500px;
+    padding-bottom: 200px;
     text-align: left;
   }
 }
@@ -303,7 +303,7 @@ Color Changing Animation. Thanks to Rasin Zakaria!
 
 .running-text{
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Helvetica, sans-serif;
   line-height: 1.3em;
   font-size: 1.07em;
   color: #000000;
@@ -312,7 +312,7 @@ Color Changing Animation. Thanks to Rasin Zakaria!
 
 .running-text-link {
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Helvetica, sans-serif;
   line-height: 1.3em;
   font-size: 1.07em;
   color: #000000;
@@ -321,7 +321,7 @@ Color Changing Animation. Thanks to Rasin Zakaria!
 
 .running-text-link:hover {
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Helvetica, sans-serif;
   line-height: 1.3em;
   font-size: 1.07em;
   color: #000000;
