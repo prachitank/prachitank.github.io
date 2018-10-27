@@ -209,7 +209,7 @@ ul li.header-name {
   box-shadow: 0px 0px 28px rgba(0,0,0,0.1);
 }
 
-#footer {
+.footer {
   margin-top: 2%;
   padding: 50px 0px;
   background-color: rgba(0, 0, 0, 0.1);
@@ -220,6 +220,14 @@ ul li.header-name {
   font-size: 0.9em;
   color: #000000;
   opacity: 0.8;
+  margin: 2% 0;
+}
+
+.footer-text-big {
+  text-align: center;
+  font-size: 1.3em;
+  color: #000000;
+  opacity: 0.6;
 }
 
 /*
@@ -297,7 +305,7 @@ Color Changing Animation. Thanks to Rasin Zakaria!
 
 @media (min-width: 600px) { 
 .about-page {
-  padding: 5% 15%;
+  padding: 4% 15%;
 }
 }
 
@@ -316,12 +324,34 @@ Color Changing Animation. Thanks to Rasin Zakaria!
   line-height: 1.3em;
   font-size: 1.07em;
   color: #000000;
+  opacity: 0.7;
+  margin-top: 60px;
+}
+
+.running-text-a {
+  font-weight: 800;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  line-height: 1.3em;
+  font-size: 1.07em;
+  color: #000000;
   opacity: 0.9;
 }
 
+
+.running-text-faq {
+  font-weight: 800;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  line-height: 1.3em;
+  font-size: 2.07em;
+  color: #000000;
+  opacity: 0.7;
+  margin-top: 10px;
+}
+
+
 .running-text-link {
   font-weight: 400;
-  font-family: "Montserrat", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   line-height: 1.3em;
   font-size: 1.07em;
   color: #000000;
@@ -330,7 +360,7 @@ Color Changing Animation. Thanks to Rasin Zakaria!
 
 .running-text-link:hover {
   font-weight: 400;
-  font-family: "Montserrat", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   line-height: 1.3em;
   font-size: 1.07em;
   color: #000000;
@@ -338,7 +368,7 @@ Color Changing Animation. Thanks to Rasin Zakaria!
 }
 
 .mt-10 {
-  margin-top: 25%;
+  /*margin-top: 25%;*/
 }
 
 .mb-10 {
@@ -347,7 +377,7 @@ Color Changing Animation. Thanks to Rasin Zakaria!
 
 @media (min-width: 400px) { 
 .mt-10 {
-  margin-top: 10%;
+  /*margin-top: 10%;*/
 }
 
 .mb-10 {
@@ -357,7 +387,7 @@ Color Changing Animation. Thanks to Rasin Zakaria!
 
 @media (min-width: 700px) { 
 .mt-10 {
-  margin-top: 5%;
+  /*margin-top: 5%;*/
 }
 
 .mb-10 {
@@ -367,17 +397,17 @@ Color Changing Animation. Thanks to Rasin Zakaria!
 
 @media (min-width: 1300px) { 
 .mt-10 {
-  margin-top: 2%;
+  /*margin-top: 2%;*/
 }
 
 .mb-10 {
-  margin-bottom: 5%;
+  /*margin-bottom: 5%;*/
 }
 }
 
 @media (min-width: 2000px) { 
 .mt-10 {
-  margin-top: 1%;
+  /*margin-top: 1%;*/
 }
 
 .mb-10 {

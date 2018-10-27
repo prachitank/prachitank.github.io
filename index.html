@@ -23,36 +23,36 @@
 <div id="page-wrap">
 
 <!-- top container -->
-<div class="top-container" data-aos="fade-zoom-in" data-aos-duration="1000">
-    <h2 class="greeting">Hello! I'm <span class="break"> Prachi Tan<span id="letter-spacing-full-stop">k<a href="about.html"><span id = "orange-text" class="awesome">.</span></a></span></span></h2>
+<div id="top" class="top-container" data-aos="fade-zoom-in" data-aos-duration="1000">
+    <h2 class="greeting">Hello! I'm <span class="break"> Prachi Tan<span id="letter-spacing-full-stop">k<a href="about.html#fullStop"><span id = "orange-text" class="awesome">.</span></a></span></span></h2>
     <h3 class="college-intro"><span class="break-lg">I'm pursuing my Masters in Interaction Design</span> at the <a class="link-undecorated" href="http://www.idc.iitb.ac.in/" target="_blank">Industrial Design Center (IDC), IIT Bombay</a>.</h3>  
-    <a href="index.html#myHeader"><i class="down top-container-arrow"></i></a>
+    <a class="flow" href="index.html#myHeader"><i class="down top-container-arrow"></i></a>
 </div>
 
 <!-- header -->
 <div class="header" id="myHeader" data-aos="fade-zoom-in" data-aos-offset=100 data-aos-duration="500">
   <ul id="myList">
     <li class="header-name">
-      <a href="index.html">Prachi Tan<span id="letter-spacing-full-stop">k<span id = "orange-text" class="awesome">.</span></span></a>
+      <a class="flow" href="index.html#top">Prachi Tan<span id="letter-spacing-full-stop">k<span id = "orange-text" class="awesome">.</span></span></a>
     </li>
     <span class="break">
       <li class="make-active">
-        <a href="index.html#myList">Work</a>
+        <a class="flow" href="index.html#work">Work</a>
       </li>
       <li>
-        <a href="about.html#myList">About</a>
+        <a href="about.html">About</a>
       </li>
       <li>
-        <a href="https://drive.google.com/file/d/1ZJu9AqdHYraA99jOmpQ0a8IdY7AvxNkA/view?usp=sharing" target="_blank">Resume</a>
+        <a href="https://drive.google.com/file/d/1rr2fhitEqPJkAYNeYElJJ7ukrUVWV_vf/view?usp=sharing" target="_blank">Resume</a>
       </li>
       <li>
-        <a href="mailto:prachitank6@email.com" target="_blank">Contact</a>
+        <a class="flow" href="index.html#section2">Contact</a>
       </li>
     </span>
   </ul>
 </div>
 
-<div class="content">
+<div class="content" id="work">
 
 <!-- project 1 -->
 <div class="container py-3" data-aos="fade-zoom-in" data-aos-offset=100 data-aos-duration="500">
@@ -83,7 +83,7 @@
       <div class="row d-flex align-items-center">
         <div class="col-md-6 col-lg-8 px-3">
           <div class="card-block px-3">
-            <h4 class="card-title project-title-text">Are you frustrated with your bank app too?</h4>
+            <h4 class="card-title project-title-text">Frustrated with your bank app?</h4>
             <p class="card-text project-tags-text">UX Design  |  Graduation Project</p>
             <p class="card-text running-text">Analysing the current scenario of banks and money in India, understanding what the user needs to create more intuitive flows and tailored value additions.</p>           
             <p class="project-tags-text read-more">Read on Medium <!-- &rarr; --><i class="right read-more-arrow"></i></p>
@@ -127,7 +127,7 @@
           <div class="card-block px-3">
             <h4 class="card-title project-title-text">Bidri Coffee Table Book</h4>
             <p class="card-text project-tags-text">Photobook  |  Bidri Handicraft</p>
-            <p class="card-text running-text">A Coffee Table Book for the traditional art form of Bidar, Karnataka. The project involved us working on research, photography, writing and graphic design. </p>           
+            <p class="card-text running-text">A Coffee Table Book highlighting the traditional art form of Bidar, Karnataka. The project involved research, photography, writing and graphic design. </p>           
             <p class="project-tags-text read-more">View on Behance <!-- &rarr; --><i class="right read-more-arrow"></i></p>
           </div>
         </div>
@@ -171,17 +171,14 @@
   </a>
 </div>
 
+
 <!-- contact -->
-<div id="footer">
-  <p class="footer-text">Coded with &hearts; by Prachi</p>
+<div class="footer" id="section2">
+  <p class="footer-text">Get in touch <br><span class="footer-text-big"><a href="mailto:prachitank6@gmail.com" target="_blank">prachitank6@gmail.com</a></span></p>
 </div>
-
-
 
 <!-- footer -->
-<div id="footer">
   <p class="footer-text">Coded with &hearts; by Prachi</p>
-</div>
 
 <!-- scripts -->
   <script src="script.js"></script>
@@ -190,6 +187,38 @@
   <script>
     AOS.init();
   </script>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $(".flow").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 
 
 </body>
