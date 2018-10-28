@@ -108,8 +108,17 @@ a {
 a:hover {
   text-decoration: none;
   color: inherit;
+  /*opacity: 0.5;*/
+}
+
+@media (min-width: 467px) { 
+a:hover {
+  text-decoration: none;
+  color: inherit;
   opacity: 0.5;
 }
+}
+
 
 hover-opacity-1:hover {
   opacity: 1;
