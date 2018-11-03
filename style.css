@@ -194,6 +194,17 @@ ul li.header-name {
   }
 }
 
+ul li.header-initial {
+  padding-right: 15px;
+  display:inline;
+}
+
+@media (min-width: 500px) { 
+  ul li.header-initial {
+    display:none; 
+  }
+}
+
 .make-active {
   color: #000000;
   opacity: 0.4;  
