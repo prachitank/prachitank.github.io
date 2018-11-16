@@ -40,16 +40,9 @@
     }
   }
 
-
-// scroll magic
-
-// init controller
-var controller = new ScrollMagic.Controller();
-
-// create a scene
-new ScrollMagic.Scene({
-        triggerElement: "#sm-project1"        // start this scene after scrolling for 50px
-    })
-    .setClassToggle("#sm-project1", "fade-in") // pins the element for the the scene's duration
-    .addIndicators()
-    .addTo(controller); // assign the scene to the controller
+function ClipBoard() 
+{
+holdtext.innerText = copytext.innerText;
+Copied = holdtext.createTextRange();
+Copied.execCommand("Copy");
+}

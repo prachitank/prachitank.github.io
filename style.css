@@ -194,17 +194,6 @@ ul li.header-name {
   }
 }
 
-ul li.header-initial {
-  padding-right: 15px;
-  display:inline;
-}
-
-@media (min-width: 500px) { 
-  ul li.header-initial {
-    display:none; 
-  }
-}
-
 .make-active {
   color: #000000;
   opacity: 0.4;  
@@ -270,7 +259,7 @@ Color Changing Animation. Thanks to Rasin Zakaria!
       
       10% {
         
-        color: #ff0000;
+        color: #b200ff;
       }
       
       20% {
@@ -301,7 +290,7 @@ Color Changing Animation. Thanks to Rasin Zakaria!
       }
       80% {
      
-        color: #ffae00;
+        color: #b200ff;
       }
       
       90% {
