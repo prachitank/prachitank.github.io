@@ -19,10 +19,10 @@ body {
 
 @media (min-width: 500px) { 
   .top-container {
-    padding-top: 225px;
+    padding-top: 300px;
     padding-left: 15%; 
     padding-right: 12%;  /*Right is different from left because of the rag*/ 
-    padding-bottom: 200px;
+    padding-bottom: 300px;
     text-align: left;
   }
 }
@@ -39,8 +39,8 @@ body {
 
 @media (min-width: 2500px) { 
   .top-container {
-    padding-top: 480px;
-    padding-bottom: 480px;
+    padding-top: 600px;
+    padding-bottom: 600px;
     padding-left: 10%; 
     padding-right: 12%;  /*Right is different from left because of the rag*/ 
     text-align: left;
