@@ -64,18 +64,13 @@ body {
   display: inline;
 }
 
-@media (min-width: 700px) { 
-  .break-lg {
-    display: block;
-  }
-}
-
+/*fo*/
 .college-intro {
   font-family: Montserrat, Roboto, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 500;
   line-height: 1.3;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   opacity: 0.8;
 }
 
@@ -234,28 +229,28 @@ ul li.header-name {
   margin-top: 2%;
   padding: 50px 0px;
   background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .footer-text {
-  text-align: center;
   font-size: 0.9em;
   color: #000000;
-  opacity: 0.8;
+  opacity: 0.4;
   margin: 2% 0;
 }
 
 .footer-text-big {
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1em;
   color: #000000;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .footer-text-big:hover {
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1em;
   color: #000000;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 .pointer {cursor: pointer;}
