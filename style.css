@@ -343,6 +343,12 @@ Color Changing Animation. Thanks to Rasin Zakaria!
   opacity: 0.9;
 }
 
+@media (min-width: 1200px) { 
+  .card-without-image-text {
+    margin-right: 250px;
+  }
+}
+
 .running-text-bold {
   font-weight: 800;
   font-family: "Open Sans", Helvetica, sans-serif;
