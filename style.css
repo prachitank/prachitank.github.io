@@ -16,14 +16,14 @@ body {
 }
 
 .padding40 {
-  padding-left: 60px;
+  padding-left: 50px;
 }
 
 .test {
   background-size: auto 200px;
   background-color: rgba(255, 255, 255, 0.9);  
   background-blend-mode: lighten;
-  padding-left: 60px;
+  padding-left: 50px;
   padding-top: 10px;
 }
 
