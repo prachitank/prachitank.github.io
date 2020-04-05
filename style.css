@@ -6,14 +6,31 @@ body {
 }
 
 .container-fluid {
-	max-width: 880px;
-  padding-left: 40px;
-  padding-right: 40px; 
+	max-width: 920px;
+  padding-left: 0px;
+  padding-right: 0px; 
 }
 
 .intro {
-  max-width: 450px;
+  max-width: 550px;
 }
+
+.padding40 {
+  padding-left: 60px;
+}
+
+.test {
+  background-size: auto 200px;
+  background-color: rgba(255, 255, 255, 0.9);  
+  background-blend-mode: lighten;
+  padding-left: 60px;
+  padding-top: 10px;
+}
+
+.test:hover {
+  background-blend-mode: normal;
+}
+
 
 h1 {
   font-weight: 800;
