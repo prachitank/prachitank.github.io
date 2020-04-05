@@ -3,15 +3,20 @@ body {
  	color: rgba(0, 0, 0, 0.5);
 	margin: 0;
 	padding-top: 200px;
-
 }
 
-.container {
-	width: 800px;
+.container-fluid {
+	max-width: 880px;
+  padding-left: 40px;
+  padding-right: 40px; 
+}
+
+.intro {
+  max-width: 450px;
 }
 
 h1 {
-	font-weight:800;
+  font-weight: 800;
  	color: rgba(0, 0, 0, 1);	
 }
 
