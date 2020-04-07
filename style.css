@@ -1,18 +1,18 @@
 body {
 	font-family: Montserrat, Arial, Helvetica, sans-serif;  
- 	color: rgba(0, 0, 0, 0.5);
+ 	color: rgba(0, 0, 0, 0.6);
 	margin: 0;
-	padding-top: 200px;
+	padding-top: 170px;
 }
 
 .container-fluid {
 	max-width: 920px;
-  padding-left: 0px;
+  padding-left: 10px;
   padding-right: 0px; 
 }
 
 .intro {
-  max-width: 550px;
+  max-width: 500px;
 }
 
 .padding40 {
@@ -20,11 +20,13 @@ body {
 }
 
 .test {
-  background-size: auto 200px;
-  background-color: rgba(255, 255, 255, 0.9);  
+  background-size: auto 250px;
+  background-color: rgba(255, 255, 255, 0.8);  
   background-blend-mode: lighten;
   padding-left: 50px;
   padding-top: 10px;
+  padding-right: 15px;  
+  padding-bottom: 10px;
 }
 
 .test:hover {
@@ -78,17 +80,17 @@ a:hover {
 @-webkit-keyframes colorchange {
       0% {
         
-        color: #001dff;
+        color: #001dff;b
       }
       
       10% {
         
-        color: #b200ff;
+        color: #b200ff;pu
       }
       
       20% {
         
-        color: #ff00e1;
+        color: #ff00e1;pi
       }
       
       30% {
@@ -97,33 +99,33 @@ a:hover {
       }
       
       40% {
-        color: #00faff;
+        color: #00faff;lb
       }
       
       50% {
-        color: #00ff61;
+        color: #00ff61;lg
       }
       
       60% {
-        color: #2eff00;
+        color: #2eff00;lg
       }
       
       70% {
         
-        color: #d0ff00;
+        color: #d0ff00;yg
       }
       80% {
      
-        color: #b200ff;
+        color: #b200ff;rp
       }
       
       90% {
      
-        color: #ff4300;
+        color: #ff4300;r
       }
       
       100% {
         
-        color: #009dff;
+        color: #009dff;gb
       }
     }
