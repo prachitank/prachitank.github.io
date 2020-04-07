@@ -2,11 +2,12 @@ body {
 	font-family: Montserrat, Arial, Helvetica, sans-serif;  
  	color: rgba(0, 0, 0, 0.6);
 	margin: 0;
-	padding-top: 170px;
+  padding-top: 100px;
 }
+  
 
 .container-fluid {
-	max-width: 920px;
+	max-width: 940px;
   padding-left: 10px;
   padding-right: 10px; 
 }
@@ -16,18 +17,29 @@ body {
 }
 
 .padding40 {
-  padding-left: 50px;
+  padding-left: 55px;
 }
 
 .test {
   background-size: auto 250px;
   background-color: rgba(255, 255, 255, 0.8);  
   background-blend-mode: lighten;
-  padding-left: 50px;
+  padding-left: 55px;
   padding-top: 10px;
   padding-right: 15px;  
   padding-bottom: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .test {
+    padding-top: 0px;
+  }
+
+  .intro {
+  max-width: 350px;
+  }
+}
+
 
 .test:hover {
   background-blend-mode: normal;
