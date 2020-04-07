@@ -8,7 +8,7 @@ body {
 .container-fluid {
 	max-width: 920px;
   padding-left: 10px;
-  padding-right: 0px; 
+  padding-right: 10px; 
 }
 
 .intro {
