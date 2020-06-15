@@ -54,7 +54,7 @@ body {
   max-height: 40px;
 }
 
-.test:hover{
+.card:hover .test{
     opacity: 1;
 }
 
