@@ -66,6 +66,12 @@ body {
   .intro {
   max-width: 350px;
   }
+
+  .container-fluid {
+      padding-left: 10px;
+
+  }
+
 }
 
 h1 {
