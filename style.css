@@ -30,6 +30,7 @@ body {
 .card-top {
   min-height: 228px;
   padding: 20px;
+  text-decoration: none;
 }
 
 .card-bottom {
@@ -50,6 +51,11 @@ body {
   -webkit-transform: rotate(-45deg);
 }
 
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
 .test {
   opacity: 0.4;
   max-height: 40px;
@@ -59,6 +65,25 @@ body {
     opacity: 1;
 }
 
+@media only screen and (max-width: 480px) {
+  .yesmobile {
+    display: block !important;
+  }
+  .nomobile {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .yesmobile {
+    display: none !important;
+  }
+  .nomobile {
+    display: block !important;
+  }
+}
+
+
 
 
 
@@ -66,7 +91,7 @@ body {
   .intro {
   max-width: 350px;
   }
-
+  
   .container-fluid {
       padding-left: 10px;
 
@@ -79,13 +104,35 @@ h1 {
  	color: rgba(0, 0, 0, 1);	
 }
 
+h2 {
+  font-size: 100;
+  font-weight: 800;
+ 	color: rgba(0, 0, 0, 1);	
+}
+
 h6 {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-weight: 400;
 }
 
+.btn {
+  background-color: #ffffff;
+  border-color: #D79AFF;
+  border-style: solid;
+  border-radius: 2px;
+  padding: 10px;
+}
 
+.btn:hover{
+  background-color: #D79AFF;
+  color: #000000;
+}
+
+.btn:focus {
+  background-color: #ffffff;
+  border-color: #D79AFF;
+}
 
 .title {
 	color: rgba(0, 0, 0, 1);
@@ -111,9 +158,17 @@ a {
 }
 
 a:hover {
-	-webkit-animation:colorchange 8s infinite;
-    animation: colorchange 8s infinite;
-    text-decoration: none;
+  /* /* -webkit-animation:colorchange 8s infinite;
+    animation: colorchange 8s infinite; */
+    text-decoration: none; 
+}
+
+.underline-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #D79AFF;
+  color: #000000;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 4px ;
 }
 
 .awesome { 
@@ -176,3 +231,7 @@ a:hover {
         color: #009dff;gb
       }
     }
+
+
+
+ 
