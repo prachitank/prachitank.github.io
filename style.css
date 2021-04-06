@@ -61,7 +61,7 @@ body {
 
 
 .intro {
-  max-width: 550px;
+  max-width: 560px;
   padding-left: 30px;
   padding-bottom: 50px;
 }
@@ -265,30 +265,30 @@ a:hover {
       }
       
       50% {
-        color: #00ff61;lg
+        color: #00ff61;
       }
       
       60% {
-        color: #2eff00;lg
+        color: #2eff00;
       }
       
       70% {
         
-        color: #d0ff00;yg
+        color: #d0ff00;
       }
       80% {
      
-        color: #b200ff;rp
+        color: #b200ff;
       }
       
       90% {
      
-        color: #ff4300;r
+        color: #ff4300;
       }
       
       100% {
         
-        color: #009dff;gb
+        color: #009dff;
       }
     }
 
