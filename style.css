@@ -229,8 +229,6 @@ a:hover {
 }
 
 
-
-
 .awesome { 
     font-weight: 800;           
     color:#ff7619;
@@ -242,17 +240,17 @@ a:hover {
 @-webkit-keyframes colorchange {
       0% {
         
-        color: #001dff;b
+        color: #001dff;
       }
       
       10% {
         
-        color: #b200ff;pu
+        color: #b200ff;
       }
       
       20% {
         
-        color: #ff00e1;pi
+        color: #ff00e1;
       }
       
       30% {
@@ -261,7 +259,7 @@ a:hover {
       }
       
       40% {
-        color: #00faff;lb
+        color: #00faff;
       }
       
       50% {
