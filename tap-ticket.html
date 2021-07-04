@@ -14,6 +14,10 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- HTML2Canvas library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js">
+    </script>
 </head>
 
 <body>
@@ -23,7 +27,7 @@
             <form id='nameForm'>
                 <div class='form-uname' style=" padding-bottom: 20px;">
                     <label id='nameLable' for='nameField' style="font-weight: 100;">Student's name:</label>
-                    <input id='nameField' type='text' maxlength='30' style="width: 100%;"></input>
+                    <input id='nameField' type='text' maxlength='20' style="width: 100%;"></input>
                 </div>
                 <div style="display: flex; flex-direction: row;">
                     <p style="">Select badge type:</p>
@@ -37,16 +41,17 @@
                     </div>
                 </div>
             </form>
-
+            
             <button onclick="myFunction()" style="margin: 10px 0px 20px 0px; width: 100%;">Generate badge</button>
+            <div id="canvasWrapper" class="outer" style="position: relative; text-align: center;">
+                <a id="downloadLink" download="badge.png" style="visibility: hidden;">Click here to download your badge!</a>
+                <p id="helpText" style="visibility: hidden;" >Or right click on the badge to get the option to copy it</p>
+            </div>
 
-            <div style="position: relative;">
-
-
-                <div>
-
-                    <p id="cert"
-                        style="
+            
+            <div style="position: relative; opacity: 0.0;">
+                <div id="createImg">
+                    <p id="cert" style="
                             position: absolute; 
                             width: 100%; 
                             text-align: center; 
@@ -54,33 +59,45 @@
                             z-index: 1; 
                             padding-top: 108px; 
                             color: royalblue;
-                            font-family: 'Brush Script MT', 'Times New Roman', Times, serif;">
+                            font-family: 'Comic Sans MS' , 'Times New Roman', Times, serif;">
                     </p>
-                </div>
-                <div style="display: flex; justify-content: center;">
-
-                    <img id="bg" src="" style="width: 320px ;z-index: 0;">
+                    <div style="display: flex; justify-content: center;">
+                        <img id="bg" src="" style="width: 320px; z-index: 0;">
+                    </div>
                 </div>
             </div>
+
+
         </div>
     </div>
 </body>
 <script>
-
-
     function myFunction() {
-        if (document.getElementById('beginner').checked == true) {
-            document.getElementById("bg").src = "beginner.jpeg";
+        if (document.getElementById("beginner").checked == true) {
+            document.getElementById("bg").src = "https://www.prachitank.com/beginner.jpeg";
         } else {
-            document.getElementById("bg").src = "finisher.jpeg";
+            document.getElementById("bg").src = "https://www.prachitank.com/finisher.jpeg";
         }
-
         document.getElementById("cert").innerHTML = document.getElementById('nameField').value;
+        makeCanvas();
     }
+    
+    function makeCanvas() {
+        html2canvas(document.getElementById("createImg"), {
+            onrendered: function (canvas) {
+                canvas.id = "html2canvas";
+                var oldcanvas = document.getElementById("html2canvas");
+                if (oldcanvas) oldcanvas.parentNode.removeChild(oldcanvas);
+                document.getElementById("canvasWrapper").appendChild(canvas);
+                var image = canvas.toDataURL("image/png");
+                document.getElementById("downloadLink").href = image;
+                document.getElementById("downloadLink").style.visibility = "visible";
+                document.getElementById("helpText").style.visibility = "visible";
 
-
-
-
+            },
+            useCORS: true
+        });
+    }
 </script>
 
 </html>
