@@ -23,29 +23,91 @@
 <body>
 
     <div style="display: flex; flex-direction: row; justify-content: center;">
-        <div class="col-lg-3 col-sm-12 col-md-3">
+        <div class="col-lg-5 col-sm-12 col-md-3">
             <form id='nameForm'>
                 <div class='form-uname' style=" padding-bottom: 20px;">
                     <label id='nameLable' for='nameField' style="font-weight: 100;">Student's name:</label>
                     <input id='nameField' type='text' maxlength='20' style="width: 100%;"></input>
                 </div>
-                <div style="display: flex; flex-direction: row;">
+                <div style="display: flex; flex-direction: column;">
                     <p style="">Select badge type:</p>
-                    <div style="margin: 0px 5px;">
-                        <input type="radio" id="beginner" name="fav_language" value="beginner">
-                        <label for="beginner">Beginner</label>
+                    
+                    <div>
+                        <label style="cursor: pointer; font-weight: 100;">
+                            <input type="radio" id="yaroonkayaar" name="fav_language" value="yaroonkayaar" style="cursor: pointer;">
+                            <b>Yaaron ka Yaar :</b> Help other kids in the group by resolving queries.
+                        </label>
                     </div>
-                    <div style="margin: 0px 5px;">
-                        <input type="radio" id="finisher" name="fav_language" value="finisher">
-                        <label for="finisher">Finisher</label>
+                    
+                    <div>
+                        <label style="cursor: pointer; font-weight: 100;">
+                            <input type="radio" id="curiousmind" name="fav_language" value="curiousmind" style="cursor: pointer;">
+                            <b>Curious Mind :</b> Ask good questions in TAP Class during Activity discussion.
+                        </label>
+                    </div>
+
+                    <div>
+                        <label style="cursor: pointer; font-weight: 100;">
+                            <input type="radio" id="sabkasaathi" name="fav_language" value="sabkasaathi" style="cursor: pointer;"> 
+                            <b>Sabka Saathi:</b> Make 3 friends in the group access activity by calling/ texting them. 
+                        </label>
+                    </div>
+
+                    <div>
+                        <label style="cursor: pointer; font-weight: 100;">
+                            <input type="radio" id="caringfriend" name="fav_language" value="caringfriend" style="cursor: pointer;">
+                            <b>Caring Friend :</b> Make 1 friend in the group submit the work.
+                        </label>
+                    </div>
+
+                    <div>
+                        <label style="cursor: pointer; font-weight: 100;">
+                            <input type="radio" id="studentoftheweek" name="fav_language" value="studentoftheweek" style="cursor: pointer;">
+                            <b>Student of the week :</b> Student who accessed activity, active in tap class, submits on-time.
+                        </label>
+                    </div>
+
+                    <div>
+                        <label style="cursor: pointer; font-weight: 100;">
+                            <input type="radio" id="creativemind" name="fav_language" value="curiousmind">
+                            <b>Creative Mind :</b> Most Creative/Out of box submission.
+                        </label>
+                    </div>
+
+                    <div>
+                        <label style="cursor: pointer; font-weight: 100;">
+                            <input type="radio" id="smartbrain" name="fav_language" value="smartbrain">
+                            <b>Smart Brain :</b> Best idea shared.
+                        </label>
+                    </div>
+
+                    <div>
+                        <label style="cursor: pointer; font-weight: 100;">
+                            <input type="radio" id="starstudent" name="fav_language" value="starstudent">
+                            <b>Star Student :</b> Regular for 2 weeks in submission.
+                        </label>
+                    </div>
+
+                    <div>
+                        <label style="cursor: pointer; font-weight: 100;">
+                            <input type="radio" id="attendancechampion" name="fav_language" value="attendancechampion">
+                            <b>Attendance Champion :</b> Regular for 2 weeks in attending tap class.
+                        </label>
+                    </div>
+                
+                    <div>
+                        <label style="cursor: pointer; font-weight: 100;">
+                            <input type="radio" id="bestnewentry" name="fav_language" value="bestnewentry">
+                            <b>Best New Entry :</b> Performing well suddenly.
+                        </label>
                     </div>
                 </div>
             </form>
             
             <button onclick="myFunction()" style="margin: 10px 0px 20px 0px; width: 100%;">Generate badge</button>
             <div id="canvasWrapper" class="outer" style="position: relative; text-align: center;">
-                <a id="downloadLink" download="badge.png" style="visibility: hidden;">Click here to download your badge!</a>
-                <p id="helpText" style="visibility: hidden;" >Or right click on the badge to get the option to copy it</p>
+                <a id="downloadLink" download="badge.png" style="visibility: hidden;">Click here to download the badge!</a>
+                <p id="helpText" style="visibility: hidden;" >Or right click on the badge to get the option to copy it.</p>
             </div>
 
             
@@ -55,11 +117,11 @@
                             position: absolute; 
                             width: 100%; 
                             text-align: center; 
-                            font-size: 30px; 
+                            font-size: 14px; 
                             z-index: 1; 
-                            padding-top: 108px; 
-                            color: royalblue;
-                            font-family: 'Comic Sans MS' , 'Times New Roman', Times, serif;">
+                            padding-top: 243px; 
+                            color:white;
+                            font-family: 'Century Gothic' , 'Times New Roman', Times, serif;">
                     </p>
                     <div style="display: flex; justify-content: center;">
                         <img id="bg" src="" style="width: 320px; z-index: 0;">
@@ -73,11 +135,27 @@
 </body>
 <script>
     function myFunction() {
-        if (document.getElementById("beginner").checked == true) {
-            document.getElementById("bg").src = "https://www.prachitank.com/beginner.jpeg";
-        } else {
-            document.getElementById("bg").src = "https://www.prachitank.com/finisher.jpeg";
-        }
+        if (document.getElementById("yaroonkayaar").checked == true) {
+            document.getElementById("bg").src = "https://www.prachitank.com/yaroonkayaar.JPG";
+        } else if (document.getElementById("curiousmind").checked == true) {
+            document.getElementById("bg").src = "https://www.prachitank.com/curiousmind.JPG";
+        } else if (document.getElementById("sabkasaathi").checked == true) {
+            document.getElementById("bg").src = "https://www.prachitank.com/sabkasaathi.JPG";
+        } else if (document.getElementById("caringfriend").checked == true) {
+            document.getElementById("bg").src = "https://www.prachitank.com/caringfriend.JPG";
+        } else if (document.getElementById("studentoftheweek").checked == true) {
+            document.getElementById("bg").src = "https://www.prachitank.com/studentoftheweek.JPG";
+        } else if (document.getElementById("creativemind").checked == true) {
+            document.getElementById("bg").src = "https://www.prachitank.com/creativemind.JPG";
+        } else if (document.getElementById("smartbrain").checked == true) {
+            document.getElementById("bg").src = "https://www.prachitank.com/smartbrain.JPG";
+        } else if (document.getElementById("starstudent").checked == true) {
+            document.getElementById("bg").src = "https://www.prachitank.com/starstudent.JPG";
+        } else if (document.getElementById("attendancechampion").checked == true) {
+            document.getElementById("bg").src = "https://www.prachitank.com/attendancechampion.JPG";
+        } else if (document.getElementById("bestnewentry").checked == true) {
+            document.getElementById("bg").src = "https://www.prachitank.com/bestnewentry.JPG";
+        } 
         document.getElementById("cert").innerHTML = document.getElementById('nameField').value;
         makeCanvas();
     }
