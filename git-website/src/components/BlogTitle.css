@@ -1,0 +1,10 @@
+.blog-title {
+    background-color:#f2ddff; 
+    padding: 30px 30px 10px 20px;
+  }
+
+  .tags {
+	font-size: 0.8em;
+	color: rgba(0, 0, 0, 0.7);
+}
+

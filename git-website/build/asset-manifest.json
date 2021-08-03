@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/prachitank.github.io/static/css/main.3b3a71a5.chunk.css",
+    "main.js": "/prachitank.github.io/static/js/main.b062cb22.chunk.js",
+    "main.js.map": "/prachitank.github.io/static/js/main.b062cb22.chunk.js.map",
+    "runtime-main.js": "/prachitank.github.io/static/js/runtime-main.820f6a15.js",
+    "runtime-main.js.map": "/prachitank.github.io/static/js/runtime-main.820f6a15.js.map",
+    "static/js/2.d4ddc510.chunk.js": "/prachitank.github.io/static/js/2.d4ddc510.chunk.js",
+    "static/js/2.d4ddc510.chunk.js.map": "/prachitank.github.io/static/js/2.d4ddc510.chunk.js.map",
+    "index.html": "/prachitank.github.io/index.html",
+    "static/css/main.3b3a71a5.chunk.css.map": "/prachitank.github.io/static/css/main.3b3a71a5.chunk.css.map",
+    "static/js/2.d4ddc510.chunk.js.LICENSE.txt": "/prachitank.github.io/static/js/2.d4ddc510.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.820f6a15.js",
+    "static/js/2.d4ddc510.chunk.js",
+    "static/css/main.3b3a71a5.chunk.css",
+    "static/js/main.b062cb22.chunk.js"
+  ]
+}
