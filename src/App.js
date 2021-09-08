@@ -11,6 +11,7 @@ import ShawFlat from './pages/images/shawFlat.png';
 import BlogContentShort from './components/BlogContentShort.js';
 import Dividerblank from './components/Dividerblank.js';
 import DividerblankLarge from './components/DividerblankLarge.js';
+import { Helmet } from 'react-helmet';
 
 import Whatsapp from './pages/images/whatsapp.png';
 
@@ -19,6 +20,9 @@ export default class App extends React.Component {
     return (
       <div class="">
         <div class="row justify-content-center">
+      <Helmet>
+      <title>Prachi's Portfolio</title>
+      </Helmet>
           <div class="col-xl-6 col-lg-6 col">
             <HomeIntro />
           </div>
