@@ -1,0 +1,121 @@
+.awesome {
+  font-weight: 800;           
+  animation: colorchange 8s infinite ease-in-out;
+}
+
+.greeting {
+  font-weight: 600;           
+}
+
+.greeting:not(:hover) {
+  animation:none;
+  color: #000000;
+}
+
+@keyframes colorchange {
+      0% {
+        
+        color: #001dff;
+      }
+      
+      10% {
+        
+        color: #b200ff;
+      }
+      
+      20% {
+        
+        color: #ff00e1;
+      }
+      
+      30% {
+        
+        color: #b200ff;
+      }
+      
+      40% {
+        color: #f2ddff;
+      }
+      
+      50% {
+        color: #00ff61;
+      }
+      
+      60% {
+        color: #f2ddff;
+      }
+      
+      70% {
+        
+        color: #d0ff00;
+      }
+      80% {
+     
+        color: #f2ddff;
+      }
+      
+      90% {
+     
+        color: #ff4300;
+      }
+      
+      100% {
+        
+        color: #f2ddff;
+      }
+}
+
+
+@keyframes colorchange2 {
+  0% {
+    
+    color: #f2ddff;
+  }
+  
+  10% {
+    
+    color: #dba0ff;
+  }
+  
+  20% {
+    
+    color: #ff2ddf;
+  }
+  
+  30% {
+    
+    color: #b200ff;
+  }
+  
+  40% {
+    color: #f2ddff;
+  }
+  
+  50% {
+    color: #00ff61;
+  }
+  
+  60% {
+    color: #e7da65;
+  }
+  
+  
+  70% {
+    
+    color: #001dff;
+  }
+  80% {
+ 
+    color: #f2ddff;
+  }
+  
+  90% {
+ 
+    color: #ff4300;
+  }
+  
+  100% {
+    
+    color: #f2ddff;
+  }
+}

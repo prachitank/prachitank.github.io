@@ -1,0 +1,12 @@
+.blog-title {
+    /* background-color:#f2ddff;  */
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+
+  .tags {
+	font-size: 0.9em;
+	color: rgba(0, 0, 0, 0.6);
+}
+
