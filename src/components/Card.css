@@ -16,7 +16,14 @@
   opacity: 0.4;
 }
 
-.card-top:hover img {
+@media only screen and (max-width: 600px) {
+  .test {
+    width:60%;
+  }
+}
+
+
+.card:hover img {
   opacity: 1;
 }
 
@@ -35,6 +42,7 @@
 }
 
 .link-decor:hover {
+  color: #b031ff;
   text-decoration: underline;
   text-decoration-thickness: 4px;
   text-decoration-color: #D79AFF;

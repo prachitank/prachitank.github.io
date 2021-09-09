@@ -32,7 +32,7 @@ export default class App extends React.Component {
 
         <BlogContentShort
           ContentShortTitle="WORKING AT D. E. SHAW"
-          ContentShort="I design products for multiple user types to help them analyze and act on data in an effective and timely manner. I have spearheaded design for 8 highly technical and data dense products from end to end and I also contribute to creating and maintaining a scalable design system."
+          ContentShort="I design products to help users comprehend, analyze and act on data in an effective and timely manner. I have spearheaded design for 8 highly technical and data dense products from end to end and I also contribute to creating and maintaining a scalable design system."
           route="ShawBlog"
           nonLinkTextBefore="Read more about it"
           LinkText=" here"
@@ -109,7 +109,7 @@ export default class App extends React.Component {
             <div class="blog-margin">
 
 
-              <p> I volunteer with the product team at <a href="https://www.theapprenticeproject.org/" target="tap-window">The Apprentice Project Org</a> which aims to connect children in rural Maharashtra to extracurricular subjects. We design and improve experiences for the students. Recently, I made a little <a href="https://www.theapprenticeproject.org/" target="website_window">website</a> that the mentors can use to make custom badges for the students which the kids like to share with their friends :) </p>
+              <p> I volunteer with the product team at <a href="https://www.theapprenticeproject.org/" target="tap-window">The Apprentice Project </a> who aim to provide children from low-imcome communities in Maharashtra access to extracurricular subjects. We design for and improve the student experience - recently, I made a little <a href="https://www.prachitank.com/tap-ticket/" target="website_window">website</a> that the mentors can use to customise badges for their students which the kids love to share with their friends :) </p>
             </div>
           </div>
         </div>
@@ -128,8 +128,8 @@ export default class App extends React.Component {
 
         <DividerblankLarge />
         <BlogContentShort
-          ContentShortTitle="THANKS FOR STOPPING BY :)"
-          //ContentShort="In the 10 weeks at Google Bangalore, I worked with the G Suite Team to design a new feature within the Admin Console in collaboration with the large network of teams associated with the product. I also carved out time to contribute to user research that the Next Billion Users team was conducting."
+          //ContentShortTitle=""
+          ContentShort="Thanks for stopping by!"
           //route="GoogleBlog"
           //nonLinkTextBefore="I've written more about my experience"
           //LinkText=" here"

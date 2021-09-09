@@ -8,7 +8,7 @@ import Divider from '../components/Divider.js';
 
 
 
-//import Dividerblank from '../components/Dividerblank.js';
+import Dividerblank from '../components/Dividerblank.js';
 import DividerblankLarge from '../components/DividerblankLarge.js';
 //import BlogContentThree from '../components/BlogContentThree.js';
 
@@ -17,19 +17,19 @@ import DividerblankLarge from '../components/DividerblankLarge.js';
 
 import BlogContentShort from '../components/BlogContentShort.js';
 
-//import Process from '../pages/images/shaw-blog/process.png';
-//import Persona from '../pages/images/shaw-blog/persona.png';
+import img1 from '../pages/images/shaw-blog/1.png';
+import img2 from '../pages/images/shaw-blog/2.png';
 //import Data from '../pages/images/shaw-blog/data.png';
 
 
 import '../components/Common.css';
+import BlogImage from '../components/BlogImage.js';
 //import BlogContentTwo from '../components/BlogContentTwo.js';
 
 export default class ShawBlog extends React.Component {
   render() {
     return (
       <div>
-        <div class="background">
 
         <BlogTitle
           title="Working at D. E. Shaw"
@@ -42,16 +42,24 @@ export default class ShawBlog extends React.Component {
 
 
 
-
+<DividerblankLarge
+        />
+<BlogImage
+BlogImage={img1}/>
 <BlogContentShort
-        ContentShortTitle="RESPONSIBILITIES"
+        //ContentShortTitle="RESPONSIBILITIES"
         ContentShort="Though my job title says 'Interaction Designer', my work lies at the intersection of interaction design and data visualisation. I constantly find myself ideating for product features, creating visualisations that can support thorough analysis and reading about concepts in the space of finance."
         />
+        
 <BlogContentShort
         //ContentShortTitle="RESPONSIBILITIES"
         ContentShort="As a sole designer on multiple trading teams, I oversee the entire UX process from end to end while collaborating with developers and product managers. Since I work on all projects of each trading team, I have a bird's eye view of the ecosystem and am always looking out for opportunities to enhance the experience on a holistic level while also working with devs on monthly releases.
         "
         />
+        <DividerblankLarge
+        />
+        <BlogImage
+        BlogImage={img2}/>
         
         <BlogContentShort
         //ContentShortTitle="RESPONSIBILITIES"
@@ -61,28 +69,21 @@ export default class ShawBlog extends React.Component {
         
         <BlogContentShort
         //ContentShortTitle="RESPONSIBILITIES"
-        ContentShort="         Unfortunately, I can't share details about the work I do. But I would be happy to talk about it in person.
+        ContentShort=" I work with 6 client teams on multiple different projects - notable amongst them being products realted to access management, the internal data viz and analytics software and with the equities team  which is the highest revenue generating team. Unfortunately, I can't share specifics about the work I do. But I would be happy to talk about some of it in person.
 
         "
         />
-        
-        <DividerblankLarge
-        />
 
-        {/* <BlogContentShort
-        ContentShortTitle="EQUITIES"
-        ContentShort="I work with  the Equities Team (highest revenue generating team in D. E. Shaw) as they started their collaboration with the design team. I worked on multiple products that helped streamline the workflows on the research team and reduce time spent by Financial Researchers on average by creating an ecosystem for the users."
         />
+        <BlogContentShort
+                    //ContentShortTitle="THANK YOU!"
+                    //ContentShort="How to best represent each data point? What kind of micro interactions would be needed? What is the best idea for each usecase? I ideated in different levels of fidelity as my understanding became clearer."
+                    route=""
+                    LinkText=" Go back"
+                    classes="arrow left"
+                />
 
-<BlogContentShort
-        ContentShortTitle="PROJECTS"
-        ContentShort="Of the multiple teams I work with"
-        />
-        <Dividerblank */}
-        />
-
-
-      </div>
+<DividerblankLarge/>
       </div>
     );
   }

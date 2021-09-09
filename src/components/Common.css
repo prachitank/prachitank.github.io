@@ -19,6 +19,12 @@
   }
 }
 
+@media only screen and (max-width: 994px) {
+  .top-media {
+    margin-top: 20px;
+  }
+}
+
 .row {
   margin: 0px;
   padding:0px;
@@ -63,6 +69,13 @@ p {
 a {
   color: #b031ff
 }
+a:hover {
+  color: #b031ff;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-decoration-color: #D79AFF;
+  text-underline-offset: 2px;
+}
 
 .background {
   background-color: rgb(238, 241, 255);
@@ -70,6 +83,14 @@ a {
 
 .link {
   color: #b031ff;
+}
+
+.link:hover {
+  color: #b031ff;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-decoration-color: #D79AFF;
+  text-underline-offset: 2px;
 }
 
 .arrow {

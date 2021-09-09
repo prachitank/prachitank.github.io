@@ -187,11 +187,12 @@ textBefore="You can view the full presentation"
 text=" here."/>
 
 <BlogContentShort
-        ContentShortTitle="THANK YOU!"
-        //ContentShort="How to best represent each data point? What kind of micro interactions would be needed? What is the best idea for each usecase? I ideated in different levels of fidelity as my understanding became clearer."
-        route=""
-        LinkText="< View other projects"
-        />
+                    //ContentShortTitle="THANK YOU!"
+                    //ContentShort="How to best represent each data point? What kind of micro interactions would be needed? What is the best idea for each usecase? I ideated in different levels of fidelity as my understanding became clearer."
+                    route=""
+                    LinkText="View all projects"
+                    classes="arrow left"
+                />
         <DividerblankLarge/>
 
 

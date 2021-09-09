@@ -42,7 +42,7 @@ export default class GoogleBlog extends React.Component {
 
           <BlogContentShort
             //ContentShortTitle="BI and analytics tool"
-            ContentShort="I interned with the G Suite team in Bangalore for 10 weeks and worked on the Admin Console. I got a chance to collaborate with the 8 sub-teams that owned parts of the product to design a new feature. In my time there, I went through the phases of research, design, iterations and user feedback. And having the PMs discuss a possible development timeline for the feature was a fitting end to the internship!"
+            ContentShort="I interned with the G Suite team in Bangalore for 10 weeks when I worked on the Admin Console. I got a chance to collaborate with the 8 sub-teams that owned parts of the product to design a new feature. In my time there, I went through the phases of research, design, iterations and user feedback. And having the PMs discuss a possible development timeline for the feature was a fitting end to the internship!"
           />
 
 
@@ -65,7 +65,7 @@ export default class GoogleBlog extends React.Component {
           <Dividerblank
           />
 <BlogContentShort
-            ContentShortTitle="MULTIDISCIPLINARY EXPOSURE."
+            ContentShortTitle="MULTIDISCIPLINARY EXPOSURE"
             ContentShort="A lot of my college projects have looked like this: A design student, working under the guidance of a design professor and also taking regular feedback from design student classmates and seniors. We do manage to get feedback from field experts and users when required, but their involvement remains minimal and given the constraints of the academic setup, they are not heavily invested. However, through the projects that I worked on at Google, I got a chance to collaborate not just with designers but with product managers and engineers across different teams. Each of them had a different and valuable viewpoint of looking at the product — discussions with them made me more sensitive to their point of view to eventually make a better end product."
           />
 
@@ -102,14 +102,14 @@ export default class GoogleBlog extends React.Component {
           />
 
 
-          <BlogContentShort
-        // /ContentShortTitle="THANK YOU!"
-        //ContentShort="How to best represent each data point? What kind of micro interactions would be needed? What is the best idea for each usecase? I ideated in different levels of fidelity as my understanding became clearer."
-        route=""
-        LinkText=" Back to home"
-        />
-        
 
+        <BlogContentShort
+                    //ContentShortTitle="THANK YOU!"
+                    //ContentShort="How to best represent each data point? What kind of micro interactions would be needed? What is the best idea for each usecase? I ideated in different levels of fidelity as my understanding became clearer."
+                    route=""
+                    LinkText="Go back"
+                    classes="arrow left"
+                />
         <DividerblankLarge/>
 
         </div>
