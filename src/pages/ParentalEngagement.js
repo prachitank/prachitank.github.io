@@ -29,178 +29,190 @@ import workedverywell from '../pages/images/p2/workedverywell.png';
 import videos from '../pages/images/p2/videos.png';
 import BlogContentShort from '../components/BlogContentShort.js';
 import DividerblankLarge from '../components/DividerblankLarge.js';
-import { Link } from 'react-router-dom';
+
+import Paper from '../pages/images/paper-parental-engagement.pdf';
+import Link from '../components/Link.js';
+import ScrollToTopOnMount from "../ScrollToTopOnMount.js";
 
 export default class ParentalEngagement extends React.Component {
   render() {
     return (
       <div>
+                      <ScrollToTopOnMount />
+
         <div class="background">
-        <BlogTitle
-          title="Parental Engagement in Rural India"
+          <BlogTitle
+            title="Parental Engagement in Rural India"
           //BlogTags="Some subtitle" 
           />
 
-        {/* <BlogContentShort
+          {/* <BlogContentShort
           ContentShortTitle="Reposnsibilities"
           ContentShort="Spearheaded UX for multiple verticals in Shaw - Equities, debt and convertible securities along with infrastructure projects." /> */}
 
-<Divider />
-<Dividerblank/>
+          <Divider />
+          <Dividerblank />
 
-        <BlogContentTwo
-          Title1="PUBLISHED AT"
-          Content1="CHI 2020, 2nd place at the Student Research Competition - Graduate Category"
-          Title2="WITH"
-          Content2="Prof. Dr. Anirudha Joshi"
+          <BlogContentTwo
+            Title1="PUBLISHED AT"
+            Content1="CHI 2020, 2nd place at the Student Research Competition - Graduate Category"
+            Title2="GUIDED BY"
+            Content2="Prof. Dr. Anirudha Joshi"
           />
-<Dividerblank/>
-        <BlogImage
-          BlogImage={P2Logos}
+          <Dividerblank />
+          <Link
+            textBefore="Link to the "
+            text="paper"
+            textAfter="."
+            href={Paper}
+            target="wri-window"
           />
+          <Dividerblank />
 
-          <Link 
-          textBefore="The paper can be accessed "
-          text="here."
+          <BlogImage
+            BlogImage={P2Logos}
           />
+          <Dividerblank />
 
-<Dividerblank/>
-        {/* <BlogContentSectionTitle
+
+          {/* <BlogContentSectionTitle
           ContentSectionTitle1="SECONDARY RESEARCH"
           ContentSectionTitle2="What is the problem?" 
         /> */}
-<BlogContentShort
-        ContentShortTitle="WHAT IS THE PROBLEM?"
-        //ContentShort="So, even though school enrollment has increased, which sounds like a positive, the perfoemance of students has decreased because parents are not able to support their children. "
-        />
-        <Dividerblank/>
-        <BlogImage
-                  BlogImage={img1}
-                  />        
-<BlogContentShort
-        //ContentShortTitle="WHAT IS THE PROBLEM?"
-        ContentShort="So, even though school enrollment has increased, which sounds like a positive, the performance of students has decreased because parents are not able to support their children. "
-        />
-        <Dividerblank/>
-        <BlogContentShort
-        ContentShortTitle="PRIMARY RESEARCH"
-        ContentShort="I visited schools near my hometown, Solapur to talk to some teachers and parents."
-        />
-        <BlogImage
-        BlogImage={img2}
-        Caption="Schools that I visited for primary research."
-        />
-      <Dividerblank/>
-        <BlogImage
-        BlogImage={interviewnotes}
-        Caption="Interview notes and coding."
-      />
+          <BlogContentShort
+            ContentShortTitle="THE PROBLEM"
+          //ContentShort="So, even though school enrollment has increased, which sounds like a positive, the perfoemance of students has decreased because parents are not able to support their children. "
+          />
+          <Dividerblank />
+          <BlogImage
+            BlogImage={img1}
+          />
+          <BlogContentShort
+            //ContentShortTitle="WHAT IS THE PROBLEM?"
+            ContentShort="So even though school enrollment has increased, which is a positive, the performance of students has decreased because parents are not able to support their children. "
+          />
+          <Dividerblank />
+          <BlogContentShort
+            ContentShortTitle="PRIMARY RESEARCH"
+            ContentShort="I visited schools near my hometown, Solapur to talk to some teachers and parents."
+          />
 
-<BlogContentShort
-        //ContentShortTitle="PRIMARY RESEARCH"
-        ContentShort="From the interviews, I identified the contextual engagement barriers that the parents face and the opportunities that we can leverage."
-        />
-        <DividerblankLarge/>
-                <BlogImage
-        BlogImage={barropp}
-        Caption="Insights from the interviews."
-        />
-<BlogContentShort
-        ContentShortTitle="INTERVENTION DESIGN"
-        //ContentShort="This gave me insights into the barriers to engagement and the opportunities."
-        />
+          <Dividerblank/>
+          <BlogImage
+            BlogImage={img2}
+            Caption="Schools that I visited for primary research."
+          />
+          <Dividerblank />
+          <BlogImage
+            BlogImage={interviewnotes}
+            Caption="Interview notes and coding."
+          />
 
-<BlogImageExtraLarge
-        BlogImage={comic}
-        Caption="Intervention Design"
-        />
+          <BlogContentShort
+            //ContentShortTitle="PRIMARY RESEARCH"
+            ContentShort="From the interviews, I identified the contextual engagement barriers that the parents face and the opportunities that we can leverage."
+          />
+          <DividerblankLarge />
+          <BlogImage
+            BlogImage={barropp}
+            Caption="Insights from the interviews."
+          />
+          <BlogContentShort
+            ContentShortTitle="INTERVENTION DESIGN"
+          //ContentShort="This gave me insights into the barriers to engagement and the opportunities."
+          />
 
-<BlogContentShort
-        ContentShortTitle="EXPERIMENT DESIGN"
-        ContentShort="While the above comic shows the ideal scenario of the teacher being able to completely control the process, I took over some of the parts in this process like shooting the video and editing it in order to test proof of concept. We made 6 videos over two weeks."
-        />
+          <BlogImageExtraLarge
+            BlogImage={comic}
+            Caption="Intervention Design"
+          />
 
-        <Dividerblank/>   
-<BlogImageLarge
-        BlogImage={videos}
-        Caption="Intervention Design"
-        />
+          <BlogContentShort
+            ContentShortTitle="EXPERIMENT DESIGN"
+            ContentShort="While the above comic shows the ideal scenario of the teacher being able to completely control the process, I took over some of the parts in this process like shooting the video and editing it to test proof of concept. We made 6 videos over two weeks."
+          />
 
-<BlogContentShort
-        //ContentShortTitle="EXPERIMENT DESIGN"
-        ContentShort="I edited them and the teacher sent them to the parents on the same day."
-        />  
-        <Dividerblank/>   
+          <Dividerblank />
+          <BlogImageLarge
+            BlogImage={videos}
+            Caption="Videos that were sent to the parents"
+          />
 
-<BlogImage
-        BlogImage={whatsapp}
-        Caption="Intervention Design"
-        />
+          <BlogContentShort
+            //ContentShortTitle="EXPERIMENT DESIGN"
+            ContentShort="I edited them and the teacher sent them to the parents on the same day that the topic was taught in school."
+          />
+          <Dividerblank />
 
-<BlogContentShort
-        ContentShortTitle="GATHERING FEEDBACK"
-        ContentShort="I interviewed the parents at two intervals. This was done because the teacher had recommended calling them and giving the parents who haven't accessed the videos a push. This helped get more data about what the parents thought of the intervention while also giving insights into why parents would completely ignore the videos."
-        />  
-        <Dividerblank/>  
-<BlogImage
-        BlogImage={interviewplan}
-        Caption="Interview and analysis plan"
-        />
+          <BlogImage
+            BlogImage={whatsapp}
+            Caption="Intervention Design"
+          />
 
-
-<BlogContentShort
-        //ContentShortTitle="GATHERING FEEDBACK"
-        ContentShort="I evaluated the parents' feedback on a scale based on an engagement coninuum proposed by Goodall et al. While all the parents reached level 3, not all shared any immediate benefit they saw from it."
-        />  
-        <Dividerblank/>  
+          <BlogContentShort
+            ContentShortTitle="GATHERING FEEDBACK"
+            ContentShort="I interviewed the parents at two intervals. This was done because the teacher had recommended calling them and giving the parents who haven't accessed the videos a push. This helped get more data about what the parents thought of the intervention while also giving insights into why parents would completely ignore the videos."
+          />
+          <Dividerblank />
+          <BlogImage
+            BlogImage={interviewplan}
+            Caption="Interview and analysis plan"
+          />
 
 
-        <BlogImage
-        BlogImage={feedback}
-        Caption="Interview and analysis plan"
-        />
+          <BlogContentShort
+            //ContentShortTitle="GATHERING FEEDBACK"
+            ContentShort="I evaluated the parents' feedback and their levels of engagement on a scale based on an engagement continuum proposed by Goodall et al. While all the parents reached level 3, not all shared any immediate benefit they saw from it, which I realised was the main drawback. Before sharing tools that can be used for engagement, it would be worthwhile to convey the benefits of the engagement. This would result in higher conversion rates from less engaged parents."
+          />
+          <Dividerblank />
 
-<BlogContentShort
-        ContentShortTitle="WHAT WORKED WELL"
-        ContentShort="Parents who were already engaged with their childrens' learning engaged with the intervention, mentioned that they learnt something new about their child."
-        />  
-        <Dividerblank/>  
-        <BlogImage
-        BlogImage={whatworked}
-        Caption="Interview and analysis plan"
-        />
-        <BlogContentShort
-        ContentShortTitle="WHAT WORKED SURPRISINGLY WELL"
-        ContentShort="The two teachers that I worked with and the school principal became a lot more accountable. They started speaking in English in the videos, using props for the explanations and went the extra mile."
-        />  
-        <Dividerblank/>  
-        <BlogImage
-        BlogImage={workedverywell}
-        Caption="Interview and analysis plan"
-        />
 
-<BlogContentShort
-        ContentShortTitle="FUTURE WORK"
-        ContentShort="The intervention gave us insights into what its strengths were, while also shedding light on the gaps that still existed in the intervention as well as in the ecosystem. Some areas for future work that I identified were - "
-        />  
- <Dividerblank/>
+          <BlogImage
+            BlogImage={feedback}
+            Caption="Interview and analysis plan"
+          />
 
-<BlogContentThree
-Content1="Conveying the long term benefits of engagement to the parents through different means."
-Content2="Improving communication between parents and teachers."
-Content3="Using parent-teacher communication to help increase accountability."
-/>
+          <BlogContentShort
+            ContentShortTitle="WHAT WORKED WELL AND WHAT DIDN'T"
+            ContentShort="Parents who were already engaged with their childrens' learning engaged with the intervention, mentioned that they learned something new about their child. I did face issues in establishing a rapport with the parents, a longer engagement would be more helpful to get data from them."
+          />
+          <Dividerblank />
+          <BlogImage
+            BlogImage={whatworked}
+            Caption="Interview and analysis plan"
+          />
+          <BlogContentShort
+            ContentShortTitle="WHAT WORKED SURPRISINGLY WELL"
+            ContentShort="The two teachers that I worked with and the school principal became a lot more accountable. They started speaking in English in the videos, using props for the explanations and went the extra mile."
+          />
+          <Dividerblank />
+          <BlogImage
+            BlogImage={workedverywell}
+            Caption="Interview and analysis plan"
+          />
 
-<BlogContentShort
-                    //ContentShortTitle="THANK YOU!"
-                    //ContentShort="How to best represent each data point? What kind of micro interactions would be needed? What is the best idea for each usecase? I ideated in different levels of fidelity as my understanding became clearer."
-                    route=""
-                    LinkText="View all projects"
-                    classes="arrow left"
-                />
+          <BlogContentShort
+            ContentShortTitle="FUTURE WORK"
+            ContentShort="The intervention gave us insights into what its strengths were, while also shedding light on the gaps that still existed in the intervention as well as in the ecosystem. Some areas for future work that I identified were - "
+          />
+          <Dividerblank />
 
-                <DividerblankLarge/>
-      </div>
+          <BlogContentThree
+            Content1="Conveying the long-term benefits of engagement to the parents through different means."
+            Content2="Improving communication between parents and teachers."
+            Content3="Using parent-teacher communication to help increase accountability."
+          />
+
+          <BlogContentShort
+            //ContentShortTitle="THANK YOU!"
+            //ContentShort="How to best represent each data point? What kind of micro interactions would be needed? What is the best idea for each usecase? I ideated in different levels of fidelity as my understanding became clearer."
+            route=""
+            LinkText="View all projects"
+            classes="arrow left"
+          />
+
+          <DividerblankLarge />
+        </div>
       </div>
     );
   }

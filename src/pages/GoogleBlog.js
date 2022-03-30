@@ -52,7 +52,7 @@ export default class GoogleBlog extends React.Component {
 
           <BlogContentShort
             ContentShortTitle="OVERVIEW"
-            ContentShort="The summer of 2019 was 20 weeks worth of things to do packed into 10 - My project with the G Suite team, participating in design sprints, winning a post it art contest B), learning from other brilliant designers and researchers and from my fellow interns! But every bit of those busy ten weeks have been extremely rewarding. What follows are parts of the experience that really stood out."
+            ContentShort="The summer of 2019 was 20 weeks worth of things to do packed into 10 - My project with the G Suite team, participating in design sprints, winning a post-it art contest B), learning from other brilliant designers and researchers and from my fellow interns! But every bit of those busy ten weeks were been extremely rewarding. What follows are parts of the experience that really stood out."
           />
           <Dividerblank
           />
@@ -71,7 +71,7 @@ export default class GoogleBlog extends React.Component {
 
 <BlogContentShort
             ContentShortTitle="THE 20% PROJECT"
-            ContentShort="I contributed in a design sprint to help ideate product directions for an upcoming app with a team which included designers, product managers, engineers and members of the marketing team. Through the sprint, I got a chance to lead ideations with groups of users, conduct one on one interviews and ideate flows that were tested with users."
+            ContentShort="I contributed to a design sprint to help ideate product directions for an upcoming app with a team that included designers, product managers, engineers and members of the marketing team. Through the sprint, I got a chance to lead ideations with groups of users, conduct one on one interviews and ideate flows that were tested with users."
           />
 
 <Dividerblank
@@ -84,7 +84,7 @@ export default class GoogleBlog extends React.Component {
 
 <BlogContentShort
             ContentShortTitle="PEOPLE"
-            ContentShort="The environment at Google made borrowing a colleague’s time only an email away. Everyone was happy to answer questions related to their project, their careers or the design industry in general. This made the place a lot more welcoming and made it easy to get imbibed in the culture."
+            ContentShort="The environment at Google made borrowing a colleague’s time only an email away. Everyone was happy to answer questions related to their project, their careers, or the design industry in general. This made the place a lot more welcoming and made it easy to get imbibed in the culture."
           />
           <Dividerblank
           />
@@ -96,7 +96,7 @@ export default class GoogleBlog extends React.Component {
 
 <BlogContentShort
             //ContentShortTitle="PEOPLE"
-            ContentShort="The internship was an amazing experience where I got to learn a lot from the work and the people. The project helped me understand the parts of the design process that I need to work on more. I think my main takeaways from the internship was learning how to document, communicate and collaborate effectively!
+            ContentShort="The internship was an amazing experience where I got to learn a lot from the work and the people. The project helped me understand the parts of the design process that I need to work on more. I think my main takeaways from the internship were learning how to document, communicate and collaborate effectively!
 
             "
           />

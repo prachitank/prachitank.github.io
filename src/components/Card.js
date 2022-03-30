@@ -1,6 +1,7 @@
 import React from 'react';
 import './Card.css';
 import { Link, HashRouter } from "react-router-dom";
+import Resume from '../pages/images/prachi-tank-resume.pdf';
 
 export default class Card extends React.Component {
   render() {
@@ -14,24 +15,26 @@ export default class Card extends React.Component {
 
 
           <div class="row">
-            <div class="col col-lg-12 col-md-10 col-sm-10 ">
+            <div class="col col-lg-10 col-md-10 col-sm-10 ">
 
               <p class="content top-margin-less">{this.props.description}</p>
             </div>
           </div>
 
-          <Link to={this.props.route} class="card-top">
-              <p class="link-decor mb-2">{this.props.linkText}<i class="arrow right"></i></p>
-              </Link>
-        {/* <Link to={this.props.route}>
-                  </Link> */}
+              <p class=" mb-2">
+                <Link to={this.props.Route} class=" link-decor card-top">
+                  View project >
+                </Link>
+              </p>
+ 
+              {/* <p><a class="underline-link" href={this.props.Route} target="new-window">View project > </a></p> */}
 
                   </div>
 
         <div class="col col-lg-3 col-md-3 col-sm-12 col-12 top-margin-less">
           {/* <p style={{ color: "#00000080" }}><em> {this.props.Tags2}</em></p> */}
         </div>
-        <div style={{ borderTop: "2px solid #00000010", marginTop: "30px", marginBottom: "20px" }}></div>
+        {/* <div style={{ borderTop: "2px solid #00000010", marginTop: "30px", marginBottom: "20px" }}></div> */}
 
       </HashRouter>
     );

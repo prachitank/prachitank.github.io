@@ -12,6 +12,32 @@
   color: #000000;
 }
 
+.font2 {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+
+.font-bold {
+  font-weight: 500;
+}
+
+.logos {
+  width: auto;
+  height: 45px;
+}
+
+.br-remove {
+  display: block
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .br-remove {
+    display: none
+  }
+}
+
 @keyframes colorchange {
       0% {
         

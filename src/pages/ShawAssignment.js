@@ -19,6 +19,7 @@ import BlogContentShort from '../components/BlogContentShort.js';
 
 import Process from '../pages/images/shaw-blog/process.png';
 import Persona from '../pages/images/shaw-blog/persona.png';
+import Competition from '../pages/images/shaw-blog/competition.png';
 import Data from '../pages/images/shaw-blog/data.png';
 import Ideation1 from '../pages/images/shaw-blog/ideation1.png';
 import Ideation2 from '../pages/images/shaw-blog/ideation2.png';
@@ -32,10 +33,14 @@ import Userjourney6 from '../pages/images/shaw-blog/userjourney6.png';
 import '../components/Common.css';
 import BlogContentTwo from '../components/BlogContentTwo.js';
 
+import ScrollToTopOnMount from "../ScrollToTopOnMount.js";
+
 export default class ShawAssignment extends React.Component {
   render() {
     return (
       <div>
+              <ScrollToTopOnMount />
+
         <div class="background">
 
         <BlogTitle
@@ -59,11 +64,22 @@ export default class ShawAssignment extends React.Component {
 
         <BlogContentTwo
         Title1="ASSIGNMENT BRIEF"
-        Content1="Helping traders draw insights about investment opportunities in the power sector from the World Resources Institue Dataset."
+        Content1="Helping traders draw insights about investment opportunities in the power sector from a dataset about powerplants across the world."
         Title2="DURATION"
         Content2="2 days"
         />
+
+<Dividerblank
+/>
+        <Link 
+        textBefore="Link to the "
+        text="dataset"
+        textAfter=" from the World Resources Institute."
+        href="https://www.wri.org/research/global-database-power-plants"
+        target="wri-window"
+        />
         
+
 
         <Dividerblank
         />
@@ -97,14 +113,14 @@ export default class ShawAssignment extends React.Component {
 
         <BlogContentShort
         ContentShortTitle="UNDERSTANDING THE USER"
-        ContentShort="I identified use cases from secondary research and corresponding design insights."
+        ContentShort="While I did not have access to traders while doing the assignment, I conducted secondary research to understand what a trader's day looks like, what are the tasks they do and how they approach research on any topic. Quora answers and blogs were surprisingly helpful. I listed down the use cases that I came across and the corresponding design insights."
         />
         <Dividerblank
         />
 
         <BlogImageLarge
         BlogImage={Persona}
-        Caption="User persona"
+        Caption=""
         />
         
         <Dividerblank
@@ -112,15 +128,22 @@ export default class ShawAssignment extends React.Component {
 
         <BlogContentShort
         ContentShortTitle="UNDERSTANDING THE MARKET"
-        ContentShort="I analyzed products by Sisense, Tableau and Microstrategy to identify some best practices for the UI design."
+        ContentShort="I did a heuristic evaluation of products by Sisense, Tableau and Microstrategy to identify some best practices for the UI design and set a baseline."
+        />       
+        
+        <Dividerblank/>
+
+        <BlogImage
+        BlogImage={Competition}
+        Caption=""
         />
         
         <Dividerblank
         />
         
         <BlogContentShort
-        ContentShortTitle="QUICK PROTOTYPES"
-        ContentShort="How to best represent each data point? What kind of micro interactions would be needed? What is the best idea for each usecase? I ideated in different levels of fidelity as my understanding became clearer."
+        ContentShortTitle="IDEATION AND PAPER PROTOTYPES"
+        ContentShort="I ideated at different levels of fidelity as my understanding of the following questions became clearer -  What is the best idea for each usecase? How to best represent each data point? What kind of micro interactions would be needed? "
         />
         <Dividerblank
         />
@@ -136,7 +159,7 @@ export default class ShawAssignment extends React.Component {
         <Dividerblank/>   
         <BlogImage 
         BlogImage={Ideation3}
-        Caption="Hi-fidelity mocks for data visualisation"
+        Caption="Hi-fidelity mocks exploring different visualisations"
         />
         <Dividerblank/>
 
@@ -144,7 +167,7 @@ export default class ShawAssignment extends React.Component {
         <DividerblankLarge
         />
         <BlogContentSectionTitle
-        ContentSectionTitle1="PRODUCT"
+        ContentSectionTitle1="FINAL OUTPUT"
         ContentSectionTitle2="Power Up"
         />
 

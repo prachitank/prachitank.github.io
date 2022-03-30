@@ -30,7 +30,7 @@ export default class ShawBlog extends React.Component {
   render() {
     return (
       <div>
-
+<div class="background">
         <BlogTitle
           title="Working at D. E. Shaw"
           //BlogTags="Helping traders analyse the energy market to make trading decisions." 
@@ -42,13 +42,19 @@ export default class ShawBlog extends React.Component {
 
 
 
-<DividerblankLarge
-        />
-<BlogImage
-BlogImage={img1}/>
 <BlogContentShort
         //ContentShortTitle="RESPONSIBILITIES"
         ContentShort="Though my job title says 'Interaction Designer', my work lies at the intersection of interaction design and data visualisation. I constantly find myself ideating for product features, creating visualisations that can support thorough analysis and reading about concepts in the space of finance."
+        />
+        <DividerblankLarge
+        />
+<BlogImage
+BlogImage={img1}/>
+       <BlogContentShort
+        //ContentShortTitle="RESPONSIBILITIES"
+        ContentShort=" I work with 6 client teams on multiple different projects - notable amongst them being products related to access management, the internal data viz and analytics software and with the equities team  which is the highest revenue generating team. Unfortunately, I can't share specifics about the work I do. But I would be happy to talk about some of it in person.
+
+        "
         />
         
 <BlogContentShort
@@ -67,12 +73,7 @@ BlogImage={img1}/>
         "
         />
         
-        <BlogContentShort
-        //ContentShortTitle="RESPONSIBILITIES"
-        ContentShort=" I work with 6 client teams on multiple different projects - notable amongst them being products realted to access management, the internal data viz and analytics software and with the equities team  which is the highest revenue generating team. Unfortunately, I can't share specifics about the work I do. But I would be happy to talk about some of it in person.
-
-        "
-        />
+ 
 
         />
         <BlogContentShort
@@ -84,7 +85,7 @@ BlogImage={img1}/>
                 />
 
 <DividerblankLarge/>
-      </div>
+</div> </div>
     );
   }
 }
