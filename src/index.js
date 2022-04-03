@@ -9,7 +9,6 @@ import GoogleBlog from "./pages/GoogleBlog.js";
 import ParentalEngagement from "./pages/ParentalEngagement.js";
 import Skipped from "./pages/Skipped.js";
 // import ScrollToTop from "./ScrollToTop.js";
-import ogImage from './pages/images/og-image.png'
 
 ReactDOM.render(
   <HashRouter>

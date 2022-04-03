@@ -13,24 +13,24 @@ export default class HomeIntro extends React.Component {
 
                     <div class="top-margin">
 
-                    <div style={{backgroundColor: "#B200FF05", paddingTop: "30px", paddingBottom: "30px"}}>
+                    <div style={{backgroundColor: "#B200FF08", paddingTop: "30px", paddingBottom: "30px"}}>
                         <div class="blog-margin">
 
                             <p class="tags">A BIT ABOUT ME</p>
 
 
-                            <p class="top-margin tags">What kind of work do I like?</p>
+                            <p class="top-margin tags">What kind of work do I do?</p>
                             <p><em>
-                                I like to work within complex spaces to create simple experiences for users. I like working with design systems. I enjoy and often find myself optimising processes within the team.   
+                                I like to work within complex spaces to create simple experiences for users. My work always focuses on the end-to-end experience for users that addresses all touchpoints. I enjoy and often find myself optimising processes within the team.   
                                 </em>
                                 </p>
                             
 
 
-                            <p class="top-margin tags">What do I do other than my full time job?</p>
+                            <p class="top-margin tags">What do I do other than my full-time job?</p>
                             <p>
                                 <em>
-                                    I <span class="font-bold">volunteer as a designer and developer</span> with <a href="https://www.theapprenticeproject.org/"> The Apprentice Project</a> - I taught middle school kids coding on Scratch, developed <a href="https://www.prachitank.com/tap-ticket/"> a tool</a> for other mentors like me to give personalised badges to kids and help out however else I can.
+                                    I <span class="font-bold">volunteer as a designer and developer</span> with <a href="https://www.theapprenticeproject.org/"> The Apprentice Project</a> - I taught middle school kids coding on Scratch, developed <a href="https://www.prachitank.com/tap-ticket/"> a tool</a> for other mentors like me to give personalised badges to kids, and help out however else I can.
                                 </em>
                             </p>
 

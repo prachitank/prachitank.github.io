@@ -44,10 +44,10 @@
 }
 
 .link-decor:hover {
-  color: #b031ff;
+  color: #8349FF;
   text-decoration: underline;
   text-decoration-thickness: 4px;
-  text-decoration-color: #D79AFF;
+  text-decoration-color: #8349FF;
   text-underline-offset: 2px;
 }
 

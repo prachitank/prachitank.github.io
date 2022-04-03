@@ -4,9 +4,13 @@
 }
 
 .greeting {
-  font-weight: 600;           
+  font-weight: 500;           
 }
 
+.dot-weight {
+  font-weight: 800;
+  font-size: 1.3em;          
+}
 .greeting:not(:hover) {
   animation:none;
   color: #000000;

@@ -25,6 +25,12 @@
   }
 }
 
+@media only screen and (max-width: 1025px) {
+  .top-media-2 {
+    margin-top: 20px;
+  }
+}
+
 .row {
   margin: 0px;
   padding:0px;
@@ -68,29 +74,29 @@ p {
 }
 
 a {
-  color: #b031ff
+  color: #8349ff
 }
 a:hover {
-  color: #b031ff;
+  color: #8349ff;
   text-decoration: underline;
   text-decoration-thickness: 4px;
-  text-decoration-color: #D79AFF;
+  text-decoration-color: #8349ff;
   text-underline-offset: 2px;
 }
 
 .background {
-  background-color: rgb(238, 241, 255);
+  /*background-color: rgb(238, 241, 255); */
 }
 
 .link {
-  color: #b031ff;
+  color: #8349ff;
 }
 
 .link:hover {
-  color: #b031ff;
+  color: #8349ff;
   text-decoration: underline;
   text-decoration-thickness: 4px;
-  text-decoration-color: #D79AFF;
+  text-decoration-color: #8349ff;
   text-underline-offset: 2px;
 }
 
