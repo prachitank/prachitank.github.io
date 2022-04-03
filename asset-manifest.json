@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.681737a4.chunk.css",
-    "main.js": "/static/js/main.b4f3ff80.chunk.js",
-    "main.js.map": "/static/js/main.b4f3ff80.chunk.js.map",
+    "main.js": "/static/js/main.b68f0966.chunk.js",
+    "main.js.map": "/static/js/main.b68f0966.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8aff3e10.js",
     "runtime-main.js.map": "/static/js/runtime-main.8aff3e10.js.map",
     "static/js/2.29b8a8f3.chunk.js": "/static/js/2.29b8a8f3.chunk.js",
@@ -35,7 +35,7 @@
     "static/media/og-image.97431b95.png": "/static/media/og-image.97431b95.png",
     "static/media/paper-parental-engagement.f7dcf2a4.pdf": "/static/media/paper-parental-engagement.f7dcf2a4.pdf",
     "static/media/persona.103965e7.png": "/static/media/persona.103965e7.png",
-    "static/media/prachi-tank-resume.19280994.pdf": "/static/media/prachi-tank-resume.19280994.pdf",
+    "static/media/prachi-tank-resume.aeb4f5dd.pdf": "/static/media/prachi-tank-resume.aeb4f5dd.pdf",
     "static/media/process.fbc260e4.png": "/static/media/process.fbc260e4.png",
     "static/media/shawFlat.7bfdbb82.png": "/static/media/shawFlat.7bfdbb82.png",
     "static/media/skipped1.ef341702.png": "/static/media/skipped1.ef341702.png",
@@ -57,6 +57,6 @@
     "static/js/runtime-main.8aff3e10.js",
     "static/js/2.29b8a8f3.chunk.js",
     "static/css/main.681737a4.chunk.css",
-    "static/js/main.b4f3ff80.chunk.js"
+    "static/js/main.b68f0966.chunk.js"
   ]
 }
