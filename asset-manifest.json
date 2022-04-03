@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.63d43fea.chunk.css",
-    "main.js": "/static/js/main.66c2494f.chunk.js",
-    "main.js.map": "/static/js/main.66c2494f.chunk.js.map",
+    "main.css": "/static/css/main.681737a4.chunk.css",
+    "main.js": "/static/js/main.b4f3ff80.chunk.js",
+    "main.js.map": "/static/js/main.b4f3ff80.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8aff3e10.js",
     "runtime-main.js.map": "/static/js/runtime-main.8aff3e10.js.map",
     "static/js/2.29b8a8f3.chunk.js": "/static/js/2.29b8a8f3.chunk.js",
     "static/js/2.29b8a8f3.chunk.js.map": "/static/js/2.29b8a8f3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.63d43fea.chunk.css.map": "/static/css/main.63d43fea.chunk.css.map",
+    "static/css/main.681737a4.chunk.css.map": "/static/css/main.681737a4.chunk.css.map",
     "static/js/2.29b8a8f3.chunk.js.LICENSE.txt": "/static/js/2.29b8a8f3.chunk.js.LICENSE.txt",
     "static/media/1.5313e5df.png": "/static/media/1.5313e5df.png",
     "static/media/1.818e42f2.png": "/static/media/1.818e42f2.png",
@@ -35,12 +35,13 @@
     "static/media/og-image.97431b95.png": "/static/media/og-image.97431b95.png",
     "static/media/paper-parental-engagement.f7dcf2a4.pdf": "/static/media/paper-parental-engagement.f7dcf2a4.pdf",
     "static/media/persona.103965e7.png": "/static/media/persona.103965e7.png",
-    "static/media/prachi-tank-resume.b1151216.pdf": "/static/media/prachi-tank-resume.b1151216.pdf",
+    "static/media/prachi-tank-resume.19280994.pdf": "/static/media/prachi-tank-resume.19280994.pdf",
     "static/media/process.fbc260e4.png": "/static/media/process.fbc260e4.png",
     "static/media/shawFlat.7bfdbb82.png": "/static/media/shawFlat.7bfdbb82.png",
     "static/media/skipped1.ef341702.png": "/static/media/skipped1.ef341702.png",
     "static/media/skipped2.7f017434.png": "/static/media/skipped2.7f017434.png",
     "static/media/skipped3.1b59cc19.png": "/static/media/skipped3.1b59cc19.png",
+    "static/media/user-quad.93cc519e.png": "/static/media/user-quad.93cc519e.png",
     "static/media/userjourney1.bf7cba83.png": "/static/media/userjourney1.bf7cba83.png",
     "static/media/userjourney2.6129249b.png": "/static/media/userjourney2.6129249b.png",
     "static/media/userjourney3.180f38a2.png": "/static/media/userjourney3.180f38a2.png",
@@ -55,7 +56,7 @@
   "entrypoints": [
     "static/js/runtime-main.8aff3e10.js",
     "static/js/2.29b8a8f3.chunk.js",
-    "static/css/main.63d43fea.chunk.css",
-    "static/js/main.66c2494f.chunk.js"
+    "static/css/main.681737a4.chunk.css",
+    "static/js/main.b4f3ff80.chunk.js"
   ]
 }
