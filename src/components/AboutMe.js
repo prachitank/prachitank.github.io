@@ -21,7 +21,7 @@ export default class HomeIntro extends React.Component {
 
                             <p class="top-margin tags">What kind of work do I do?</p>
                             <p><em>
-                                I like to work within complex spaces to create simple experiences for users. My work always focuses on the end-to-end experience for users that addresses all touchpoints. I enjoy and often find myself optimising processes within the team.   
+                                I like to<span class="font-bold"> work within complex spaces to create simple experiences</span> for users. My work always focuses on the end-to-end experience for users that addresses all touchpoints. I enjoy and often find myself optimising processes within the team.   
                                 </em>
                                 </p>
                             
@@ -38,7 +38,7 @@ export default class HomeIntro extends React.Component {
 
                             <p>
                                 <em>
-                                    Mostly DIYing something either with pliers, crochet needles, brushes or sandpaper, figuring out when to water plants (still trying to get it right) or reading fiction.
+                                    Mostly DIYing something either with pliers, crochet needles, brushes or sandpaper, figuring out when to water my plants (still trying to get it right) or reading fiction.
                                 </em>
                             </p>
 
